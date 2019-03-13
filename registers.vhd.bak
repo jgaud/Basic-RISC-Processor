@@ -1,0 +1,15 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity registers is
+	generic( n : integer := 8);
+	port (inputs : in std_logic_vector(n downto 0);
+	clk,reset,enable : in std_logic;
+	outputs,outputs_bar : out std_logic_vector(n downto 0));
+end registers;
+
+architecture structural of registers is
+
+begin
+
+end structural;

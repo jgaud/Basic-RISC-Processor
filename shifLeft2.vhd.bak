@@ -1,0 +1,13 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity shiftLeft2 is
+	port (instruction : in std_logic_vector(5 downto 0);
+	Jump,Branch,MemRead,MemWrite,MemtoReg,ALUSRC,RegWrite,RegDst : out std_logic;
+	ALUOP : out std_logic_vector(1 downto 0));
+end shiftLeft2;
+
+architecture structural of shiftLeft2 is
+begin
+		
+end structural;

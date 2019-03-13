@@ -1,0 +1,152 @@
+$comment
+	File created using the following command:
+		vcd file Lab2.msim.vcd -direction
+$end
+$date
+	Wed Feb 27 13:35:58 2019
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module AdderNBits_vlg_vec_tst $end
+$var reg 8 ! A [7:0] $end
+$var reg 8 " B [7:0] $end
+$var reg 1 # cin $end
+$var wire 1 $ cout $end
+$var wire 1 % res [7] $end
+$var wire 1 & res [6] $end
+$var wire 1 ' res [5] $end
+$var wire 1 ( res [4] $end
+$var wire 1 ) res [3] $end
+$var wire 1 * res [2] $end
+$var wire 1 + res [1] $end
+$var wire 1 , res [0] $end
+$var wire 1 - sign $end
+$var wire 1 . zero $end
+$var wire 1 / sampler $end
+$scope module i1 $end
+$var wire 1 0 gnd $end
+$var wire 1 1 vcc $end
+$var wire 1 2 unknown $end
+$var tri1 1 3 devclrn $end
+$var tri1 1 4 devpor $end
+$var tri1 1 5 devoe $end
+$var wire 1 6 res[0]~output_o $end
+$var wire 1 7 res[1]~output_o $end
+$var wire 1 8 res[2]~output_o $end
+$var wire 1 9 res[3]~output_o $end
+$var wire 1 : res[4]~output_o $end
+$var wire 1 ; res[5]~output_o $end
+$var wire 1 < res[6]~output_o $end
+$var wire 1 = res[7]~output_o $end
+$var wire 1 > cout~output_o $end
+$var wire 1 ? sign~output_o $end
+$var wire 1 @ zero~output_o $end
+$var wire 1 A cin~input_o $end
+$var wire 1 B A[0]~input_o $end
+$var wire 1 C B[0]~input_o $end
+$var wire 1 D AD0|o_Sum~0_combout $end
+$var wire 1 E A[1]~input_o $end
+$var wire 1 F AD0|o_CarryOut~0_combout $end
+$var wire 1 G B[1]~input_o $end
+$var wire 1 H GEN:1:AD|o_Sum~combout $end
+$var wire 1 I B[2]~input_o $end
+$var wire 1 J GEN:1:AD|o_CarryOut~0_combout $end
+$var wire 1 K A[2]~input_o $end
+$var wire 1 L GEN:2:AD|o_Sum~combout $end
+$var wire 1 M A[3]~input_o $end
+$var wire 1 N B[3]~input_o $end
+$var wire 1 O GEN:2:AD|o_CarryOut~0_combout $end
+$var wire 1 P GEN:3:AD|o_Sum~combout $end
+$var wire 1 Q B[4]~input_o $end
+$var wire 1 R GEN:3:AD|o_CarryOut~0_combout $end
+$var wire 1 S A[4]~input_o $end
+$var wire 1 T GEN:4:AD|o_Sum~combout $end
+$var wire 1 U B[5]~input_o $end
+$var wire 1 V A[5]~input_o $end
+$var wire 1 W GEN:4:AD|o_CarryOut~0_combout $end
+$var wire 1 X GEN:5:AD|o_Sum~combout $end
+$var wire 1 Y B[6]~input_o $end
+$var wire 1 Z A[6]~input_o $end
+$var wire 1 [ GEN:5:AD|o_CarryOut~0_combout $end
+$var wire 1 \ GEN:6:AD|o_Sum~combout $end
+$var wire 1 ] A[7]~input_o $end
+$var wire 1 ^ B[7]~input_o $end
+$var wire 1 _ GEN:6:AD|o_CarryOut~0_combout $end
+$var wire 1 ` ADN|o_Sum~combout $end
+$var wire 1 a ADN|o_CarryOut~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10111001 !
+b1000110 "
+1#
+1$
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0-
+1.
+x/
+00
+11
+x2
+13
+14
+15
+06
+07
+08
+09
+0:
+0;
+0<
+0=
+1>
+0?
+1@
+1A
+1B
+0C
+0D
+0E
+1F
+1G
+0H
+1I
+1J
+0K
+0L
+1M
+0N
+1O
+0P
+0Q
+1R
+1S
+0T
+0U
+1V
+1W
+0X
+1Y
+0Z
+1[
+0\
+1]
+0^
+1_
+0`
+1a
+$end
+#1000000

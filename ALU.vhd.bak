@@ -1,0 +1,28 @@
+library ieee;
+USE ieee.std_logic_1164.ALL;
+
+entity ALU is
+	GENERIC( n : integer := 8);
+	port(A : in std_logic_vector(n-1 downto 0);
+	B : in std_logic_vector(n-1 downto 0);
+	res : BUFFER std_logic_vector(n-1 downto 0);
+	cin : in std_logic;
+	cout,sign,zero : out std_logic);
+end ALU;
+
+
+
+architecture structural of ALU is
+
+component AdderNBits
+	GENERIC( n : integer := 8);
+	port(A : in std_logic_vector(n-1 downto 0);
+	B : in std_logic_vector(n-1 downto 0);
+	res : BUFFER std_logic_vector(n-1 downto 0);
+	cin : in std_logic;
+	cout,sign,zero : out std_logic);
+end component;
+
+begin
+	
+end structural;
