@@ -12,7 +12,7 @@ architecture structural of ALUControlBlock is
 	signal op0,op1,op2 : std_logic;
 begin
 	op0 <= ((f(0) or f(3)) and ALUOP(1));
-	op1 <= (f(2) or ALUOP(1));
+	op1 <= (not f(2) or not ALUOP(1));
 	op2 <= (ALUOP(0) or (ALUOP(1) and f(1)));
 	ALUOP_OUT <= op2 & op1 & op0;
 end structural;
