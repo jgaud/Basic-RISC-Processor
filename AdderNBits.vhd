@@ -39,6 +39,6 @@ begin
 		temp2(i) <= temp2(i-1) OR res(i);
 	end generate GEN2;
 	
-	zero <= NOT temp(n-1);
+	zero <= NOT temp2(n-1);
 	
 end structural;

@@ -1,0 +1,12 @@
+library ieee;
+USE ieee.std_logic_1164.ALL;
+
+entity signExtend is
+	port();
+end signExtend;
+
+
+
+architecture structural of ALU is
+
+end structural;

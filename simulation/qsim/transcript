@@ -2,25 +2,33 @@
 # ** Warning: (vlib-34) Library already exists at "work".
 # 
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module AdderNBits
+# -- Compiling module Lab2
 # 
 # Top level modules:
-# 	AdderNBits
+# 	Lab2
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module AdderNBits_vlg_sample_tst
-# -- Compiling module AdderNBits_vlg_check_tst
-# -- Compiling module AdderNBits_vlg_vec_tst
+# -- Compiling module Lab2_vlg_sample_tst
+# -- Compiling module Lab2_vlg_check_tst
+# -- Compiling module Lab2_vlg_vec_tst
 # 
 # Top level modules:
-# 	AdderNBits_vlg_vec_tst
-# vsim -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.AdderNBits_vlg_vec_tst 
-# Loading work.AdderNBits_vlg_vec_tst
-# Loading work.AdderNBits
-# Loading cycloneive_ver.cycloneive_io_obuf
-# Loading cycloneive_ver.cycloneive_io_ibuf
+# 	Lab2_vlg_vec_tst
+# vsim -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.Lab2_vlg_vec_tst 
+# Loading work.Lab2_vlg_vec_tst
+# Loading work.Lab2
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# Loading altera_ver.dffeas
 # Loading cycloneive_ver.cycloneive_lcell_comb
-# Loading work.AdderNBits_vlg_sample_tst
-# Loading work.AdderNBits_vlg_check_tst
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading work.Lab2_vlg_sample_tst
+# Loading work.Lab2_vlg_check_tst
+# Loading altera_ver.PRIM_GDFF_LOW
 # Simulation passed !
-# ** Note: $finish    : Lab2.vt(358)
-#    Time: 1 us  Iteration: 0  Instance: /AdderNBits_vlg_vec_tst/tb_out
+# ** Note: $finish    : Lab2.vt(1291)
+#    Time: 1 us  Iteration: 0  Instance: /Lab2_vlg_vec_tst/tb_out

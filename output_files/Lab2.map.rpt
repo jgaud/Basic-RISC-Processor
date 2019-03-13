@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Lab2
-Wed Mar 06 14:15:28 2019
+Wed Mar 13 01:02:29 2019
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -13,9 +13,83 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. General Register Statistics
-  9. Elapsed Time Per Partition
- 10. Analysis & Synthesis Messages
+  8. Analysis & Synthesis RAM Summary
+  9. Registers Removed During Synthesis
+ 10. General Register Statistics
+ 11. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 12. Source assignments for LPM_ROM:inst43234|altrom:srom|altsyncram:rom_block|altsyncram_og11:auto_generated
+ 13. Source assignments for LPM_RAM_DP:inst14|altdpram:sram|altsyncram:ram_block|altsyncram_h1t1:auto_generated
+ 14. Parameter Settings for User Entity Instance: registers:inst32|registre:reg0
+ 15. Parameter Settings for User Entity Instance: registers:inst32|registre:reg1
+ 16. Parameter Settings for User Entity Instance: registers:inst32|registre:reg2
+ 17. Parameter Settings for User Entity Instance: registers:inst32|registre:reg3
+ 18. Parameter Settings for User Entity Instance: registers:inst32|registre:reg4
+ 19. Parameter Settings for User Entity Instance: registers:inst32|registre:reg5
+ 20. Parameter Settings for User Entity Instance: registers:inst32|registre:reg6
+ 21. Parameter Settings for User Entity Instance: registers:inst32|registre:reg7
+ 22. Parameter Settings for User Entity Instance: registers:inst32|mux8:mux1
+ 23. Parameter Settings for User Entity Instance: registers:inst32|mux8:mux2
+ 24. Parameter Settings for User Entity Instance: LPM_ROM:inst43234
+ 25. Parameter Settings for User Entity Instance: registre:PC
+ 26. Parameter Settings for User Entity Instance: mux2:inst29
+ 27. Parameter Settings for User Entity Instance: mux2:inst23
+ 28. Parameter Settings for User Entity Instance: ALU:inst2|AdderNBits:ADD
+ 29. Parameter Settings for User Entity Instance: ALU:inst2|ANDNBits:AND1
+ 30. Parameter Settings for User Entity Instance: ALU:inst2|ORNBits:OR1
+ 31. Parameter Settings for User Entity Instance: ALU:inst2|mux8:MUX_8
+ 32. Parameter Settings for User Entity Instance: ALU:inst2|mux2:MUX_2
+ 33. Parameter Settings for User Entity Instance: ALU:inst2|complementerNBits:comp
+ 34. Parameter Settings for User Entity Instance: mux2:inst5
+ 35. Parameter Settings for User Entity Instance: AdderNBits:inst7
+ 36. Parameter Settings for User Entity Instance: shiftLeft2:inst3232
+ 37. Parameter Settings for User Entity Instance: mux2:inst16
+ 38. Parameter Settings for User Entity Instance: LPM_RAM_DP:inst14
+ 39. Parameter Settings for User Entity Instance: mux2:inst12
+ 40. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:ADN"
+ 41. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:30:AD"
+ 42. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:29:AD"
+ 43. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:28:AD"
+ 44. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:27:AD"
+ 45. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:26:AD"
+ 46. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:25:AD"
+ 47. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:24:AD"
+ 48. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:23:AD"
+ 49. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:22:AD"
+ 50. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:21:AD"
+ 51. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:20:AD"
+ 52. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:19:AD"
+ 53. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:18:AD"
+ 54. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:17:AD"
+ 55. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:16:AD"
+ 56. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:15:AD"
+ 57. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:14:AD"
+ 58. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:13:AD"
+ 59. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:12:AD"
+ 60. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:11:AD"
+ 61. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:10:AD"
+ 62. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:9:AD"
+ 63. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:8:AD"
+ 64. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:7:AD"
+ 65. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:6:AD"
+ 66. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:5:AD"
+ 67. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:4:AD"
+ 68. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:3:AD"
+ 69. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:2:AD"
+ 70. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:1:AD"
+ 71. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:AD0"
+ 72. Port Connectivity Checks: "ALU:inst2|complementerNBits:comp"
+ 73. Port Connectivity Checks: "ALU:inst2|mux8:MUX_8"
+ 74. Port Connectivity Checks: "ALU:inst2|AdderNBits:ADD"
+ 75. Port Connectivity Checks: "registers:inst32|registre:reg7"
+ 76. Port Connectivity Checks: "registers:inst32|registre:reg6"
+ 77. Port Connectivity Checks: "registers:inst32|registre:reg5"
+ 78. Port Connectivity Checks: "registers:inst32|registre:reg4"
+ 79. Port Connectivity Checks: "registers:inst32|registre:reg3"
+ 80. Port Connectivity Checks: "registers:inst32|registre:reg2"
+ 81. Port Connectivity Checks: "registers:inst32|registre:reg1"
+ 82. Port Connectivity Checks: "registers:inst32|registre:reg0"
+ 83. Elapsed Time Per Partition
+ 84. Analysis & Synthesis Messages
 
 
 
@@ -41,18 +115,18 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Mar 06 14:15:28 2019           ;
+; Analysis & Synthesis Status        ; Successful - Wed Mar 13 01:02:29 2019           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; Lab2                                            ;
-; Top-level Entity Name              ; shiftLeft2                                      ;
+; Top-level Entity Name              ; Lab2                                            ;
 ; Family                             ; Cyclone IV E                                    ;
-; Total logic elements               ; 0                                               ;
-;     Total combinational functions  ; 0                                               ;
-;     Dedicated logic registers      ; 0                                               ;
-; Total registers                    ; 0                                               ;
-; Total pins                         ; 64                                              ;
+; Total logic elements               ; 834                                             ;
+;     Total combinational functions  ; 610                                             ;
+;     Dedicated logic registers      ; 263                                             ;
+; Total registers                    ; 263                                             ;
+; Total pins                         ; 66                                              ;
 ; Total virtual pins                 ; 0                                               ;
-; Total memory bits                  ; 0                                               ;
+; Total memory bits                  ; 15,360                                          ;
 ; Embedded Multiplier 9-bit elements ; 0                                               ;
 ; Total PLLs                         ; 0                                               ;
 +------------------------------------+-------------------------------------------------+
@@ -64,7 +138,7 @@ applicable agreement for further details.
 ; Option                                                                     ; Setting            ; Default Value      ;
 +----------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                     ; EP4CE115F29C7      ;                    ;
-; Top-level entity name                                                      ; shiftLeft2         ; Lab2               ;
+; Top-level entity name                                                      ; Lab2               ; Lab2               ;
 ; Family name                                                                ; Cyclone IV E       ; Cyclone IV GX      ;
 ; Use smart compilation                                                      ; Off                ; Off                ;
 ; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
@@ -156,52 +230,450 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                             ;
-+----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                      ; Library ;
-+----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------+---------+
-; shiftLeft2.vhd                   ; yes             ; User VHDL File  ; C:/Users/jean-/Google Drive/University/6Semester/CEG3556/Labs/Lab2/shiftLeft2.vhd ;         ;
-+----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                         ;
++----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                               ; Library ;
++----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------------+---------+
+; instructionMemory.mif            ; yes             ; User Memory Initialization File    ; D:/NextCloud/University/6Semester/CEG3556/Labs/Lab2/instructionMemory.mif  ;         ;
+; ALUControlBlock.vhd              ; yes             ; User VHDL File                     ; D:/NextCloud/University/6Semester/CEG3556/Labs/Lab2/ALUControlBlock.vhd    ;         ;
+; shiftLeft2.vhd                   ; yes             ; User VHDL File                     ; D:/NextCloud/University/6Semester/CEG3556/Labs/Lab2/shiftLeft2.vhd         ;         ;
+; enardFF_2.vhd                    ; yes             ; User VHDL File                     ; D:/NextCloud/University/6Semester/CEG3556/Labs/Lab2/enardFF_2.vhd          ;         ;
+; registre.vhd                     ; yes             ; User VHDL File                     ; D:/NextCloud/University/6Semester/CEG3556/Labs/Lab2/registre.vhd           ;         ;
+; mux8.vhd                         ; yes             ; User VHDL File                     ; D:/NextCloud/University/6Semester/CEG3556/Labs/Lab2/mux8.vhd               ;         ;
+; mux2.vhd                         ; yes             ; User VHDL File                     ; D:/NextCloud/University/6Semester/CEG3556/Labs/Lab2/mux2.vhd               ;         ;
+; complementerNBits.vhd            ; yes             ; User VHDL File                     ; D:/NextCloud/University/6Semester/CEG3556/Labs/Lab2/complementerNBits.vhd  ;         ;
+; onebitadder.vhd                  ; yes             ; User VHDL File                     ; D:/NextCloud/University/6Semester/CEG3556/Labs/Lab2/onebitadder.vhd        ;         ;
+; ORNBits.vhd                      ; yes             ; User VHDL File                     ; D:/NextCloud/University/6Semester/CEG3556/Labs/Lab2/ORNBits.vhd            ;         ;
+; ANDNBits.vhd                     ; yes             ; User VHDL File                     ; D:/NextCloud/University/6Semester/CEG3556/Labs/Lab2/ANDNBits.vhd           ;         ;
+; AdderNBits.vhd                   ; yes             ; User VHDL File                     ; D:/NextCloud/University/6Semester/CEG3556/Labs/Lab2/AdderNBits.vhd         ;         ;
+; ALU.vhd                          ; yes             ; User VHDL File                     ; D:/NextCloud/University/6Semester/CEG3556/Labs/Lab2/ALU.vhd                ;         ;
+; Lab2.bdf                         ; yes             ; User Block Diagram/Schematic File  ; D:/NextCloud/University/6Semester/CEG3556/Labs/Lab2/Lab2.bdf               ;         ;
+; registers.vhd                    ; yes             ; User VHDL File                     ; D:/NextCloud/University/6Semester/CEG3556/Labs/Lab2/registers.vhd          ;         ;
+; decoder.vhd                      ; yes             ; User VHDL File                     ; D:/NextCloud/University/6Semester/CEG3556/Labs/Lab2/decoder.vhd            ;         ;
+; controlUnit.vhd                  ; yes             ; User VHDL File                     ; D:/NextCloud/University/6Semester/CEG3556/Labs/Lab2/controlUnit.vhd        ;         ;
+; signExtend.vhd                   ; yes             ; User VHDL File                     ; D:/NextCloud/University/6Semester/CEG3556/Labs/Lab2/signExtend.vhd         ;         ;
+; PCPlusFour.vhd                   ; yes             ; User VHDL File                     ; D:/NextCloud/University/6Semester/CEG3556/Labs/Lab2/PCPlusFour.vhd         ;         ;
+; Concat.vhd                       ; yes             ; User VHDL File                     ; D:/NextCloud/University/6Semester/CEG3556/Labs/Lab2/Concat.vhd             ;         ;
+; donneeMemory.mif                 ; yes             ; User Memory Initialization File    ; D:/NextCloud/University/6Semester/CEG3556/Labs/Lab2/donneeMemory.mif       ;         ;
+; lpm_rom.tdf                      ; yes             ; Megafunction                       ; d:/altera/quartus/libraries/megafunctions/lpm_rom.tdf                      ;         ;
+; altrom.inc                       ; yes             ; Megafunction                       ; d:/altera/quartus/libraries/megafunctions/altrom.inc                       ;         ;
+; aglobal130.inc                   ; yes             ; Megafunction                       ; d:/altera/quartus/libraries/megafunctions/aglobal130.inc                   ;         ;
+; altrom.tdf                       ; yes             ; Megafunction                       ; d:/altera/quartus/libraries/megafunctions/altrom.tdf                       ;         ;
+; memmodes.inc                     ; yes             ; Megafunction                       ; d:/altera/quartus/libraries/others/maxplus2/memmodes.inc                   ;         ;
+; lpm_decode.inc                   ; yes             ; Megafunction                       ; d:/altera/quartus/libraries/megafunctions/lpm_decode.inc                   ;         ;
+; lpm_mux.inc                      ; yes             ; Megafunction                       ; d:/altera/quartus/libraries/megafunctions/lpm_mux.inc                      ;         ;
+; altsyncram.inc                   ; yes             ; Megafunction                       ; d:/altera/quartus/libraries/megafunctions/altsyncram.inc                   ;         ;
+; altsyncram.tdf                   ; yes             ; Megafunction                       ; d:/altera/quartus/libraries/megafunctions/altsyncram.tdf                   ;         ;
+; stratix_ram_block.inc            ; yes             ; Megafunction                       ; d:/altera/quartus/libraries/megafunctions/stratix_ram_block.inc            ;         ;
+; a_rdenreg.inc                    ; yes             ; Megafunction                       ; d:/altera/quartus/libraries/megafunctions/a_rdenreg.inc                    ;         ;
+; altram.inc                       ; yes             ; Megafunction                       ; d:/altera/quartus/libraries/megafunctions/altram.inc                       ;         ;
+; altdpram.inc                     ; yes             ; Megafunction                       ; d:/altera/quartus/libraries/megafunctions/altdpram.inc                     ;         ;
+; db/altsyncram_og11.tdf           ; yes             ; Auto-Generated Megafunction        ; D:/NextCloud/University/6Semester/CEG3556/Labs/Lab2/db/altsyncram_og11.tdf ;         ;
+; lpm_ram_dp.tdf                   ; yes             ; Megafunction                       ; d:/altera/quartus/libraries/megafunctions/lpm_ram_dp.tdf                   ;         ;
+; altdpram.tdf                     ; yes             ; Megafunction                       ; d:/altera/quartus/libraries/megafunctions/altdpram.tdf                     ;         ;
+; a_hdffe.inc                      ; yes             ; Megafunction                       ; d:/altera/quartus/libraries/megafunctions/a_hdffe.inc                      ;         ;
+; alt_le_rden_reg.inc              ; yes             ; Megafunction                       ; d:/altera/quartus/libraries/megafunctions/alt_le_rden_reg.inc              ;         ;
+; db/altsyncram_h1t1.tdf           ; yes             ; Auto-Generated Megafunction        ; D:/NextCloud/University/6Semester/CEG3556/Labs/Lab2/db/altsyncram_h1t1.tdf ;         ;
++----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------------+---------+
 
 
-+---------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary             ;
-+---------------------------------------------+-----------+
-; Resource                                    ; Usage     ;
-+---------------------------------------------+-----------+
-;                                             ;           ;
-; Total combinational functions               ; 0         ;
-; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 0         ;
-;     -- 3 input functions                    ; 0         ;
-;     -- <=2 input functions                  ; 0         ;
-;                                             ;           ;
-; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 0         ;
-;     -- arithmetic mode                      ; 0         ;
-;                                             ;           ;
-; Total registers                             ; 0         ;
-;     -- Dedicated logic registers            ; 0         ;
-;     -- I/O registers                        ; 0         ;
-;                                             ;           ;
-; I/O pins                                    ; 64        ;
-; Embedded Multiplier 9-bit elements          ; 0         ;
-; Maximum fan-out node                        ; inputs[0] ;
-; Maximum fan-out                             ; 1         ;
-; Total fan-out                               ; 94        ;
-; Average fan-out                             ; 0.73      ;
-+---------------------------------------------+-----------+
++------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                ;
++---------------------------------------------+--------------+
+; Resource                                    ; Usage        ;
++---------------------------------------------+--------------+
+; Estimated Total logic elements              ; 834          ;
+;                                             ;              ;
+; Total combinational functions               ; 610          ;
+; Logic element usage by number of LUT inputs ;              ;
+;     -- 4 input functions                    ; 485          ;
+;     -- 3 input functions                    ; 122          ;
+;     -- <=2 input functions                  ; 3            ;
+;                                             ;              ;
+; Logic elements by mode                      ;              ;
+;     -- normal mode                          ; 610          ;
+;     -- arithmetic mode                      ; 0            ;
+;                                             ;              ;
+; Total registers                             ; 263          ;
+;     -- Dedicated logic registers            ; 263          ;
+;     -- I/O registers                        ; 0            ;
+;                                             ;              ;
+; I/O pins                                    ; 66           ;
+; Total memory bits                           ; 15360        ;
+; Embedded Multiplier 9-bit elements          ; 0            ;
+; Maximum fan-out node                        ; CLK_IN~input ;
+; Maximum fan-out                             ; 262          ;
+; Total fan-out                               ; 3872         ;
+; Average fan-out                             ; 3.64         ;
++---------------------------------------------+--------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                         ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
-; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
-; |shiftLeft2                ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 64   ; 0            ; |shiftLeft2         ; work         ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                 ;
++----------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------+--------------+
+; Compilation Hierarchy Node                   ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                       ; Library Name ;
++----------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------+--------------+
+; |Lab2                                        ; 610 (13)          ; 263 (0)      ; 15360       ; 0            ; 0       ; 0         ; 66   ; 0            ; |Lab2                                                                                     ; work         ;
+;    |ALU:inst2|                               ; 112 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2                                                                           ; work         ;
+;       |ANDNBits:AND1|                        ; 23 (23)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|ANDNBits:AND1                                                             ; work         ;
+;       |AdderNBits:ADD|                       ; 63 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD                                                            ; work         ;
+;          |oneBitAdder:AD0|                   ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:AD0                                            ; work         ;
+;          |oneBitAdder:ADN|                   ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:ADN                                            ; work         ;
+;          |oneBitAdder:\GEN:10:AD|            ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:10:AD                                     ; work         ;
+;          |oneBitAdder:\GEN:11:AD|            ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:11:AD                                     ; work         ;
+;          |oneBitAdder:\GEN:12:AD|            ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:12:AD                                     ; work         ;
+;          |oneBitAdder:\GEN:13:AD|            ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:13:AD                                     ; work         ;
+;          |oneBitAdder:\GEN:14:AD|            ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:14:AD                                     ; work         ;
+;          |oneBitAdder:\GEN:15:AD|            ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:15:AD                                     ; work         ;
+;          |oneBitAdder:\GEN:16:AD|            ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:16:AD                                     ; work         ;
+;          |oneBitAdder:\GEN:17:AD|            ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:17:AD                                     ; work         ;
+;          |oneBitAdder:\GEN:18:AD|            ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:18:AD                                     ; work         ;
+;          |oneBitAdder:\GEN:19:AD|            ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:19:AD                                     ; work         ;
+;          |oneBitAdder:\GEN:1:AD|             ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:1:AD                                      ; work         ;
+;          |oneBitAdder:\GEN:20:AD|            ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:20:AD                                     ; work         ;
+;          |oneBitAdder:\GEN:21:AD|            ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:21:AD                                     ; work         ;
+;          |oneBitAdder:\GEN:22:AD|            ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:22:AD                                     ; work         ;
+;          |oneBitAdder:\GEN:23:AD|            ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:23:AD                                     ; work         ;
+;          |oneBitAdder:\GEN:24:AD|            ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:24:AD                                     ; work         ;
+;          |oneBitAdder:\GEN:25:AD|            ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:25:AD                                     ; work         ;
+;          |oneBitAdder:\GEN:26:AD|            ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:26:AD                                     ; work         ;
+;          |oneBitAdder:\GEN:27:AD|            ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:27:AD                                     ; work         ;
+;          |oneBitAdder:\GEN:28:AD|            ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:28:AD                                     ; work         ;
+;          |oneBitAdder:\GEN:29:AD|            ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:29:AD                                     ; work         ;
+;          |oneBitAdder:\GEN:2:AD|             ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:2:AD                                      ; work         ;
+;          |oneBitAdder:\GEN:30:AD|            ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:30:AD                                     ; work         ;
+;          |oneBitAdder:\GEN:3:AD|             ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:3:AD                                      ; work         ;
+;          |oneBitAdder:\GEN:4:AD|             ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:4:AD                                      ; work         ;
+;          |oneBitAdder:\GEN:5:AD|             ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:5:AD                                      ; work         ;
+;          |oneBitAdder:\GEN:6:AD|             ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:6:AD                                      ; work         ;
+;          |oneBitAdder:\GEN:7:AD|             ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:7:AD                                      ; work         ;
+;          |oneBitAdder:\GEN:8:AD|             ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:8:AD                                      ; work         ;
+;          |oneBitAdder:\GEN:9:AD|             ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:9:AD                                      ; work         ;
+;       |mux8:MUX_8|                           ; 26 (26)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|mux8:MUX_8                                                                ; work         ;
+;    |ALUControlBlock:inst31|                  ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALUControlBlock:inst31                                                              ; work         ;
+;    |AdderNBits:inst7|                        ; 10 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7                                                                    ; work         ;
+;       |oneBitAdder:\GEN:3:AD|                ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:3:AD                                              ; work         ;
+;       |oneBitAdder:\GEN:4:AD|                ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:4:AD                                              ; work         ;
+;       |oneBitAdder:\GEN:5:AD|                ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:5:AD                                              ; work         ;
+;       |oneBitAdder:\GEN:6:AD|                ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:6:AD                                              ; work         ;
+;       |oneBitAdder:\GEN:7:AD|                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:7:AD                                              ; work         ;
+;    |PCPlusFour:inst24|                       ; 7 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24                                                                   ; work         ;
+;       |oneBitAdder:\GEN:3:AD|                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:3:AD                                             ; work         ;
+;       |oneBitAdder:\GEN:4:AD|                ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:4:AD                                             ; work         ;
+;       |oneBitAdder:\GEN:5:AD|                ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:5:AD                                             ; work         ;
+;       |oneBitAdder:\GEN:6:AD|                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:6:AD                                             ; work         ;
+;       |oneBitAdder:\GEN:7:AD|                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:7:AD                                             ; work         ;
+;    |controlUnit:inst9|                       ; 6 (6)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|controlUnit:inst9                                                                   ; work         ;
+;    |lpm_ram_dp:inst14|                       ; 1 (0)             ; 1 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|lpm_ram_dp:inst14                                                                   ; work         ;
+;       |altdpram:sram|                        ; 1 (0)             ; 1 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|lpm_ram_dp:inst14|altdpram:sram                                                     ; work         ;
+;          |altsyncram:ram_block|              ; 1 (0)             ; 1 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|lpm_ram_dp:inst14|altdpram:sram|altsyncram:ram_block                                ; work         ;
+;             |altsyncram_h1t1:auto_generated| ; 1 (1)             ; 1 (1)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|lpm_ram_dp:inst14|altdpram:sram|altsyncram:ram_block|altsyncram_h1t1:auto_generated ; work         ;
+;    |lpm_rom:inst43234|                       ; 0 (0)             ; 0 (0)        ; 7168        ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|lpm_rom:inst43234                                                                   ; work         ;
+;       |altrom:srom|                          ; 0 (0)             ; 0 (0)        ; 7168        ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|lpm_rom:inst43234|altrom:srom                                                       ; work         ;
+;          |altsyncram:rom_block|              ; 0 (0)             ; 0 (0)        ; 7168        ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|lpm_rom:inst43234|altrom:srom|altsyncram:rom_block                                  ; work         ;
+;             |altsyncram_og11:auto_generated| ; 0 (0)             ; 0 (0)        ; 7168        ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|lpm_rom:inst43234|altrom:srom|altsyncram:rom_block|altsyncram_og11:auto_generated   ; work         ;
+;    |mux2:inst12|                             ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|mux2:inst12                                                                         ; work         ;
+;    |mux2:inst16|                             ; 85 (85)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|mux2:inst16                                                                         ; work         ;
+;    |mux2:inst29|                             ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|mux2:inst29                                                                         ; work         ;
+;    |mux2:inst5|                              ; 34 (34)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|mux2:inst5                                                                          ; work         ;
+;    |registers:inst32|                        ; 330 (10)          ; 256 (0)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32                                                                    ; work         ;
+;       |mux8:mux1|                            ; 160 (160)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|mux8:mux1                                                          ; work         ;
+;       |mux8:mux2|                            ; 160 (160)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|mux8:mux2                                                          ; work         ;
+;       |registre:reg0|                        ; 0 (0)             ; 32 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0                                                      ; work         ;
+;          |enARdFF_2:\GEN:0:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0|enARdFF_2:\GEN:0:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:10:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0|enARdFF_2:\GEN:10:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:11:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0|enARdFF_2:\GEN:11:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:12:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0|enARdFF_2:\GEN:12:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:13:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0|enARdFF_2:\GEN:13:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:14:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0|enARdFF_2:\GEN:14:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:15:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0|enARdFF_2:\GEN:15:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:16:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0|enARdFF_2:\GEN:16:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:17:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0|enARdFF_2:\GEN:17:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:18:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0|enARdFF_2:\GEN:18:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:19:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0|enARdFF_2:\GEN:19:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:1:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0|enARdFF_2:\GEN:1:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:20:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0|enARdFF_2:\GEN:20:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:21:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0|enARdFF_2:\GEN:21:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:22:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0|enARdFF_2:\GEN:22:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:23:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0|enARdFF_2:\GEN:23:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:24:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0|enARdFF_2:\GEN:24:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:25:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0|enARdFF_2:\GEN:25:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:26:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0|enARdFF_2:\GEN:26:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:27:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0|enARdFF_2:\GEN:27:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:28:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0|enARdFF_2:\GEN:28:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:29:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0|enARdFF_2:\GEN:29:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:2:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0|enARdFF_2:\GEN:2:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:30:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0|enARdFF_2:\GEN:30:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:31:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0|enARdFF_2:\GEN:31:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:3:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0|enARdFF_2:\GEN:3:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:4:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0|enARdFF_2:\GEN:4:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:5:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0|enARdFF_2:\GEN:5:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:6:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0|enARdFF_2:\GEN:6:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:7:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0|enARdFF_2:\GEN:7:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:8:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0|enARdFF_2:\GEN:8:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:9:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg0|enARdFF_2:\GEN:9:FF                                  ; work         ;
+;       |registre:reg1|                        ; 0 (0)             ; 32 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1                                                      ; work         ;
+;          |enARdFF_2:\GEN:0:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1|enARdFF_2:\GEN:0:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:10:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1|enARdFF_2:\GEN:10:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:11:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1|enARdFF_2:\GEN:11:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:12:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1|enARdFF_2:\GEN:12:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:13:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1|enARdFF_2:\GEN:13:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:14:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1|enARdFF_2:\GEN:14:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:15:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1|enARdFF_2:\GEN:15:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:16:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1|enARdFF_2:\GEN:16:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:17:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1|enARdFF_2:\GEN:17:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:18:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1|enARdFF_2:\GEN:18:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:19:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1|enARdFF_2:\GEN:19:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:1:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1|enARdFF_2:\GEN:1:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:20:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1|enARdFF_2:\GEN:20:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:21:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1|enARdFF_2:\GEN:21:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:22:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1|enARdFF_2:\GEN:22:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:23:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1|enARdFF_2:\GEN:23:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:24:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1|enARdFF_2:\GEN:24:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:25:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1|enARdFF_2:\GEN:25:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:26:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1|enARdFF_2:\GEN:26:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:27:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1|enARdFF_2:\GEN:27:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:28:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1|enARdFF_2:\GEN:28:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:29:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1|enARdFF_2:\GEN:29:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:2:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1|enARdFF_2:\GEN:2:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:30:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1|enARdFF_2:\GEN:30:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:31:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1|enARdFF_2:\GEN:31:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:3:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1|enARdFF_2:\GEN:3:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:4:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1|enARdFF_2:\GEN:4:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:5:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1|enARdFF_2:\GEN:5:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:6:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1|enARdFF_2:\GEN:6:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:7:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1|enARdFF_2:\GEN:7:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:8:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1|enARdFF_2:\GEN:8:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:9:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg1|enARdFF_2:\GEN:9:FF                                  ; work         ;
+;       |registre:reg2|                        ; 0 (0)             ; 32 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2                                                      ; work         ;
+;          |enARdFF_2:\GEN:0:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2|enARdFF_2:\GEN:0:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:10:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2|enARdFF_2:\GEN:10:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:11:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2|enARdFF_2:\GEN:11:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:12:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2|enARdFF_2:\GEN:12:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:13:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2|enARdFF_2:\GEN:13:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:14:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2|enARdFF_2:\GEN:14:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:15:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2|enARdFF_2:\GEN:15:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:16:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2|enARdFF_2:\GEN:16:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:17:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2|enARdFF_2:\GEN:17:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:18:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2|enARdFF_2:\GEN:18:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:19:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2|enARdFF_2:\GEN:19:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:1:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2|enARdFF_2:\GEN:1:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:20:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2|enARdFF_2:\GEN:20:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:21:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2|enARdFF_2:\GEN:21:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:22:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2|enARdFF_2:\GEN:22:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:23:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2|enARdFF_2:\GEN:23:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:24:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2|enARdFF_2:\GEN:24:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:25:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2|enARdFF_2:\GEN:25:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:26:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2|enARdFF_2:\GEN:26:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:27:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2|enARdFF_2:\GEN:27:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:28:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2|enARdFF_2:\GEN:28:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:29:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2|enARdFF_2:\GEN:29:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:2:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2|enARdFF_2:\GEN:2:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:30:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2|enARdFF_2:\GEN:30:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:31:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2|enARdFF_2:\GEN:31:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:3:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2|enARdFF_2:\GEN:3:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:4:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2|enARdFF_2:\GEN:4:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:5:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2|enARdFF_2:\GEN:5:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:6:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2|enARdFF_2:\GEN:6:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:7:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2|enARdFF_2:\GEN:7:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:8:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2|enARdFF_2:\GEN:8:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:9:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg2|enARdFF_2:\GEN:9:FF                                  ; work         ;
+;       |registre:reg3|                        ; 0 (0)             ; 32 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3                                                      ; work         ;
+;          |enARdFF_2:\GEN:0:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3|enARdFF_2:\GEN:0:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:10:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3|enARdFF_2:\GEN:10:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:11:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3|enARdFF_2:\GEN:11:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:12:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3|enARdFF_2:\GEN:12:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:13:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3|enARdFF_2:\GEN:13:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:14:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3|enARdFF_2:\GEN:14:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:15:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3|enARdFF_2:\GEN:15:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:16:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3|enARdFF_2:\GEN:16:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:17:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3|enARdFF_2:\GEN:17:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:18:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3|enARdFF_2:\GEN:18:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:19:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3|enARdFF_2:\GEN:19:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:1:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3|enARdFF_2:\GEN:1:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:20:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3|enARdFF_2:\GEN:20:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:21:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3|enARdFF_2:\GEN:21:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:22:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3|enARdFF_2:\GEN:22:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:23:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3|enARdFF_2:\GEN:23:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:24:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3|enARdFF_2:\GEN:24:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:25:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3|enARdFF_2:\GEN:25:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:26:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3|enARdFF_2:\GEN:26:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:27:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3|enARdFF_2:\GEN:27:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:28:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3|enARdFF_2:\GEN:28:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:29:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3|enARdFF_2:\GEN:29:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:2:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3|enARdFF_2:\GEN:2:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:30:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3|enARdFF_2:\GEN:30:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:31:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3|enARdFF_2:\GEN:31:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:3:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3|enARdFF_2:\GEN:3:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:4:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3|enARdFF_2:\GEN:4:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:5:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3|enARdFF_2:\GEN:5:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:6:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3|enARdFF_2:\GEN:6:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:7:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3|enARdFF_2:\GEN:7:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:8:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3|enARdFF_2:\GEN:8:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:9:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg3|enARdFF_2:\GEN:9:FF                                  ; work         ;
+;       |registre:reg4|                        ; 0 (0)             ; 32 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4                                                      ; work         ;
+;          |enARdFF_2:\GEN:0:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4|enARdFF_2:\GEN:0:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:10:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4|enARdFF_2:\GEN:10:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:11:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4|enARdFF_2:\GEN:11:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:12:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4|enARdFF_2:\GEN:12:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:13:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4|enARdFF_2:\GEN:13:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:14:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4|enARdFF_2:\GEN:14:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:15:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4|enARdFF_2:\GEN:15:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:16:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4|enARdFF_2:\GEN:16:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:17:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4|enARdFF_2:\GEN:17:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:18:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4|enARdFF_2:\GEN:18:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:19:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4|enARdFF_2:\GEN:19:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:1:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4|enARdFF_2:\GEN:1:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:20:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4|enARdFF_2:\GEN:20:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:21:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4|enARdFF_2:\GEN:21:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:22:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4|enARdFF_2:\GEN:22:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:23:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4|enARdFF_2:\GEN:23:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:24:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4|enARdFF_2:\GEN:24:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:25:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4|enARdFF_2:\GEN:25:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:26:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4|enARdFF_2:\GEN:26:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:27:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4|enARdFF_2:\GEN:27:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:28:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4|enARdFF_2:\GEN:28:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:29:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4|enARdFF_2:\GEN:29:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:2:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4|enARdFF_2:\GEN:2:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:30:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4|enARdFF_2:\GEN:30:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:31:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4|enARdFF_2:\GEN:31:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:3:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4|enARdFF_2:\GEN:3:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:4:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4|enARdFF_2:\GEN:4:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:5:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4|enARdFF_2:\GEN:5:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:6:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4|enARdFF_2:\GEN:6:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:7:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4|enARdFF_2:\GEN:7:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:8:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4|enARdFF_2:\GEN:8:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:9:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg4|enARdFF_2:\GEN:9:FF                                  ; work         ;
+;       |registre:reg5|                        ; 0 (0)             ; 32 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5                                                      ; work         ;
+;          |enARdFF_2:\GEN:0:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5|enARdFF_2:\GEN:0:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:10:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5|enARdFF_2:\GEN:10:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:11:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5|enARdFF_2:\GEN:11:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:12:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5|enARdFF_2:\GEN:12:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:13:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5|enARdFF_2:\GEN:13:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:14:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5|enARdFF_2:\GEN:14:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:15:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5|enARdFF_2:\GEN:15:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:16:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5|enARdFF_2:\GEN:16:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:17:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5|enARdFF_2:\GEN:17:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:18:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5|enARdFF_2:\GEN:18:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:19:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5|enARdFF_2:\GEN:19:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:1:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5|enARdFF_2:\GEN:1:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:20:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5|enARdFF_2:\GEN:20:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:21:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5|enARdFF_2:\GEN:21:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:22:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5|enARdFF_2:\GEN:22:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:23:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5|enARdFF_2:\GEN:23:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:24:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5|enARdFF_2:\GEN:24:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:25:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5|enARdFF_2:\GEN:25:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:26:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5|enARdFF_2:\GEN:26:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:27:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5|enARdFF_2:\GEN:27:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:28:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5|enARdFF_2:\GEN:28:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:29:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5|enARdFF_2:\GEN:29:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:2:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5|enARdFF_2:\GEN:2:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:30:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5|enARdFF_2:\GEN:30:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:31:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5|enARdFF_2:\GEN:31:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:3:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5|enARdFF_2:\GEN:3:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:4:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5|enARdFF_2:\GEN:4:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:5:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5|enARdFF_2:\GEN:5:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:6:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5|enARdFF_2:\GEN:6:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:7:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5|enARdFF_2:\GEN:7:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:8:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5|enARdFF_2:\GEN:8:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:9:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg5|enARdFF_2:\GEN:9:FF                                  ; work         ;
+;       |registre:reg6|                        ; 0 (0)             ; 32 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6                                                      ; work         ;
+;          |enARdFF_2:\GEN:0:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6|enARdFF_2:\GEN:0:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:10:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6|enARdFF_2:\GEN:10:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:11:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6|enARdFF_2:\GEN:11:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:12:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6|enARdFF_2:\GEN:12:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:13:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6|enARdFF_2:\GEN:13:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:14:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6|enARdFF_2:\GEN:14:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:15:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6|enARdFF_2:\GEN:15:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:16:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6|enARdFF_2:\GEN:16:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:17:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6|enARdFF_2:\GEN:17:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:18:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6|enARdFF_2:\GEN:18:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:19:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6|enARdFF_2:\GEN:19:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:1:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6|enARdFF_2:\GEN:1:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:20:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6|enARdFF_2:\GEN:20:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:21:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6|enARdFF_2:\GEN:21:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:22:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6|enARdFF_2:\GEN:22:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:23:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6|enARdFF_2:\GEN:23:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:24:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6|enARdFF_2:\GEN:24:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:25:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6|enARdFF_2:\GEN:25:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:26:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6|enARdFF_2:\GEN:26:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:27:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6|enARdFF_2:\GEN:27:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:28:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6|enARdFF_2:\GEN:28:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:29:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6|enARdFF_2:\GEN:29:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:2:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6|enARdFF_2:\GEN:2:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:30:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6|enARdFF_2:\GEN:30:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:31:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6|enARdFF_2:\GEN:31:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:3:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6|enARdFF_2:\GEN:3:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:4:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6|enARdFF_2:\GEN:4:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:5:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6|enARdFF_2:\GEN:5:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:6:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6|enARdFF_2:\GEN:6:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:7:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6|enARdFF_2:\GEN:7:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:8:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6|enARdFF_2:\GEN:8:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:9:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg6|enARdFF_2:\GEN:9:FF                                  ; work         ;
+;       |registre:reg7|                        ; 0 (0)             ; 32 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7                                                      ; work         ;
+;          |enARdFF_2:\GEN:0:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:0:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:10:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:10:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:11:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:11:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:12:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:12:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:13:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:13:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:14:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:14:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:15:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:15:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:16:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:16:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:17:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:17:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:18:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:18:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:19:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:19:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:1:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:1:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:20:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:20:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:21:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:21:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:22:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:22:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:23:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:23:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:24:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:24:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:25:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:25:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:26:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:26:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:27:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:27:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:28:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:28:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:29:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:29:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:2:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:2:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:30:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:30:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:31:FF|              ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:31:FF                                 ; work         ;
+;          |enARdFF_2:\GEN:3:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:3:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:4:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:4:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:5:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:5:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:6:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:6:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:7:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:7:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:8:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:8:FF                                  ; work         ;
+;          |enARdFF_2:\GEN:9:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:9:FF                                  ; work         ;
+;    |registre:PC|                             ; 5 (0)             ; 6 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC                                                                         ; work         ;
+;       |enARdFF_2:\GEN:2:FF|                  ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:2:FF                                                     ; work         ;
+;       |enARdFF_2:\GEN:3:FF|                  ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:3:FF                                                     ; work         ;
+;       |enARdFF_2:\GEN:4:FF|                  ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:4:FF                                                     ; work         ;
+;       |enARdFF_2:\GEN:5:FF|                  ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:5:FF                                                     ; work         ;
+;       |enARdFF_2:\GEN:6:FF|                  ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:6:FF                                                     ; work         ;
+;       |enARdFF_2:\GEN:7:FF|                  ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:7:FF                                                     ; work         ;
++----------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis RAM Summary                                                                                                                                                                                    ;
++------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+------+-----------------------+
+; Name                                                                                           ; Type ; Mode             ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size ; MIF                   ;
++------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+------+-----------------------+
+; lpm_ram_dp:inst14|altdpram:sram|altsyncram:ram_block|altsyncram_h1t1:auto_generated|ALTSYNCRAM ; AUTO ; Simple Dual Port ; 256          ; 32           ; 256          ; 32           ; 8192 ; donneeMemory.mif      ;
+; lpm_rom:inst43234|altrom:srom|altsyncram:rom_block|altsyncram_og11:auto_generated|ALTSYNCRAM   ; AUTO ; ROM              ; 256          ; 32           ; --           ; --           ; 8192 ; instructionMemory.mif ;
++------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+------+-----------------------+
+
+
++--------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                             ;
++---------------------------------------+----------------------------------------+
+; Register name                         ; Reason for Removal                     ;
++---------------------------------------+----------------------------------------+
+; registre:PC|enARdFF_2:\GEN:1:FF|int_q ; Stuck at GND due to stuck port data_in ;
+; registre:PC|enARdFF_2:\GEN:0:FF|int_q ; Stuck at GND due to stuck port data_in ;
+; Total Number of Removed Registers = 2 ;                                        ;
++---------------------------------------+----------------------------------------+
 
 
 +------------------------------------------------------+
@@ -209,14 +681,719 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 0     ;
+; Total registers                              ; 263   ;
 ; Number of registers using Synchronous Clear  ; 0     ;
-; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Synchronous Load   ; 5     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Clock Enable       ; 256   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                            ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                  ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------+
+; 3:1                ; 6 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; Yes        ; |Lab2|registre:PC|enARdFF_2:\GEN:7:FF|int_q ;
+; 8:1                ; 32 bits   ; 160 LEs       ; 160 LEs              ; 0 LEs                  ; No         ; |Lab2|registers:inst32|mux8:mux1|output[30] ;
+; 8:1                ; 32 bits   ; 160 LEs       ; 160 LEs              ; 0 LEs                  ; No         ; |Lab2|registers:inst32|mux8:mux2|output[15] ;
+; 8:1                ; 7 bits    ; 35 LEs        ; 21 LEs               ; 14 LEs                 ; No         ; |Lab2|ALU:inst2|mux8:MUX_8|output[1]        ;
+; 9:1                ; 23 bits   ; 138 LEs       ; 69 LEs               ; 69 LEs                 ; No         ; |Lab2|mux2:inst16|output[17]                ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------+
+; Source assignments for LPM_ROM:inst43234|altrom:srom|altsyncram:rom_block|altsyncram_og11:auto_generated ;
++---------------------------------+--------------------+------+--------------------------------------------+
+; Assignment                      ; Value              ; From ; To                                         ;
++---------------------------------+--------------------+------+--------------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                          ;
++---------------------------------+--------------------+------+--------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Source assignments for LPM_RAM_DP:inst14|altdpram:sram|altsyncram:ram_block|altsyncram_h1t1:auto_generated ;
++---------------------------------+--------------------+------+----------------------------------------------+
+; Assignment                      ; Value              ; From ; To                                           ;
++---------------------------------+--------------------+------+----------------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                            ;
++---------------------------------+--------------------+------+----------------------------------------------+
+
+
++-----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: registers:inst32|registre:reg0 ;
++----------------+-------+----------------------------------------------------+
+; Parameter Name ; Value ; Type                                               ;
++----------------+-------+----------------------------------------------------+
+; n              ; 31    ; Signed Integer                                     ;
++----------------+-------+----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: registers:inst32|registre:reg1 ;
++----------------+-------+----------------------------------------------------+
+; Parameter Name ; Value ; Type                                               ;
++----------------+-------+----------------------------------------------------+
+; n              ; 31    ; Signed Integer                                     ;
++----------------+-------+----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: registers:inst32|registre:reg2 ;
++----------------+-------+----------------------------------------------------+
+; Parameter Name ; Value ; Type                                               ;
++----------------+-------+----------------------------------------------------+
+; n              ; 31    ; Signed Integer                                     ;
++----------------+-------+----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: registers:inst32|registre:reg3 ;
++----------------+-------+----------------------------------------------------+
+; Parameter Name ; Value ; Type                                               ;
++----------------+-------+----------------------------------------------------+
+; n              ; 31    ; Signed Integer                                     ;
++----------------+-------+----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: registers:inst32|registre:reg4 ;
++----------------+-------+----------------------------------------------------+
+; Parameter Name ; Value ; Type                                               ;
++----------------+-------+----------------------------------------------------+
+; n              ; 31    ; Signed Integer                                     ;
++----------------+-------+----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: registers:inst32|registre:reg5 ;
++----------------+-------+----------------------------------------------------+
+; Parameter Name ; Value ; Type                                               ;
++----------------+-------+----------------------------------------------------+
+; n              ; 31    ; Signed Integer                                     ;
++----------------+-------+----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: registers:inst32|registre:reg6 ;
++----------------+-------+----------------------------------------------------+
+; Parameter Name ; Value ; Type                                               ;
++----------------+-------+----------------------------------------------------+
+; n              ; 31    ; Signed Integer                                     ;
++----------------+-------+----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: registers:inst32|registre:reg7 ;
++----------------+-------+----------------------------------------------------+
+; Parameter Name ; Value ; Type                                               ;
++----------------+-------+----------------------------------------------------+
+; n              ; 31    ; Signed Integer                                     ;
++----------------+-------+----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: registers:inst32|mux8:mux1 ;
++----------------+-------+------------------------------------------------+
+; Parameter Name ; Value ; Type                                           ;
++----------------+-------+------------------------------------------------+
+; buslength      ; 32    ; Signed Integer                                 ;
++----------------+-------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: registers:inst32|mux8:mux2 ;
++----------------+-------+------------------------------------------------+
+; Parameter Name ; Value ; Type                                           ;
++----------------+-------+------------------------------------------------+
+; buslength      ; 32    ; Signed Integer                                 ;
++----------------+-------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: LPM_ROM:inst43234  ;
++------------------------+-----------------------+----------------+
+; Parameter Name         ; Value                 ; Type           ;
++------------------------+-----------------------+----------------+
+; LPM_WIDTH              ; 32                    ; Untyped        ;
+; LPM_WIDTHAD            ; 8                     ; Untyped        ;
+; LPM_NUMWORDS           ; 256                   ; Untyped        ;
+; LPM_ADDRESS_CONTROL    ; REGISTERED            ; Untyped        ;
+; LPM_OUTDATA            ; UNREGISTERED          ; Untyped        ;
+; LPM_FILE               ; instructionMemory.mif ; Untyped        ;
+; DEVICE_FAMILY          ; Cyclone IV E          ; Untyped        ;
+; AUTO_CARRY_CHAINS      ; ON                    ; AUTO_CARRY     ;
+; IGNORE_CARRY_BUFFERS   ; OFF                   ; IGNORE_CARRY   ;
+; AUTO_CASCADE_CHAINS    ; ON                    ; AUTO_CASCADE   ;
+; IGNORE_CASCADE_BUFFERS ; OFF                   ; IGNORE_CASCADE ;
++------------------------+-----------------------+----------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: registre:PC ;
++----------------+-------+---------------------------------+
+; Parameter Name ; Value ; Type                            ;
++----------------+-------+---------------------------------+
+; n              ; 31    ; Signed Integer                  ;
++----------------+-------+---------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mux2:inst29 ;
++----------------+-------+---------------------------------+
+; Parameter Name ; Value ; Type                            ;
++----------------+-------+---------------------------------+
+; buslength      ; 32    ; Signed Integer                  ;
++----------------+-------+---------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mux2:inst23 ;
++----------------+-------+---------------------------------+
+; Parameter Name ; Value ; Type                            ;
++----------------+-------+---------------------------------+
+; buslength      ; 32    ; Signed Integer                  ;
++----------------+-------+---------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ALU:inst2|AdderNBits:ADD ;
++----------------+-------+----------------------------------------------+
+; Parameter Name ; Value ; Type                                         ;
++----------------+-------+----------------------------------------------+
+; n              ; 32    ; Signed Integer                               ;
++----------------+-------+----------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ALU:inst2|ANDNBits:AND1 ;
++----------------+-------+---------------------------------------------+
+; Parameter Name ; Value ; Type                                        ;
++----------------+-------+---------------------------------------------+
+; n              ; 32    ; Signed Integer                              ;
++----------------+-------+---------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ALU:inst2|ORNBits:OR1 ;
++----------------+-------+-------------------------------------------+
+; Parameter Name ; Value ; Type                                      ;
++----------------+-------+-------------------------------------------+
+; n              ; 32    ; Signed Integer                            ;
++----------------+-------+-------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ALU:inst2|mux8:MUX_8 ;
++----------------+-------+------------------------------------------+
+; Parameter Name ; Value ; Type                                     ;
++----------------+-------+------------------------------------------+
+; buslength      ; 32    ; Signed Integer                           ;
++----------------+-------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ALU:inst2|mux2:MUX_2 ;
++----------------+-------+------------------------------------------+
+; Parameter Name ; Value ; Type                                     ;
++----------------+-------+------------------------------------------+
+; buslength      ; 32    ; Signed Integer                           ;
++----------------+-------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ALU:inst2|complementerNBits:comp ;
++----------------+-------+------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                 ;
++----------------+-------+------------------------------------------------------+
+; n              ; 31    ; Signed Integer                                       ;
++----------------+-------+------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mux2:inst5 ;
++----------------+-------+--------------------------------+
+; Parameter Name ; Value ; Type                           ;
++----------------+-------+--------------------------------+
+; buslength      ; 32    ; Signed Integer                 ;
++----------------+-------+--------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: AdderNBits:inst7 ;
++----------------+-------+--------------------------------------+
+; Parameter Name ; Value ; Type                                 ;
++----------------+-------+--------------------------------------+
+; n              ; 32    ; Signed Integer                       ;
++----------------+-------+--------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: shiftLeft2:inst3232 ;
++----------------+-------+-----------------------------------------+
+; Parameter Name ; Value ; Type                                    ;
++----------------+-------+-----------------------------------------+
+; n              ; 31    ; Signed Integer                          ;
++----------------+-------+-----------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mux2:inst16 ;
++----------------+-------+---------------------------------+
+; Parameter Name ; Value ; Type                            ;
++----------------+-------+---------------------------------+
+; buslength      ; 32    ; Signed Integer                  ;
++----------------+-------+---------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: LPM_RAM_DP:inst14 ;
++------------------------+------------------+--------------------+
+; Parameter Name         ; Value            ; Type               ;
++------------------------+------------------+--------------------+
+; WIDTH_BYTEENA          ; 1                ; Untyped            ;
+; LPM_WIDTH              ; 32               ; Untyped            ;
+; LPM_WIDTHAD            ; 8                ; Untyped            ;
+; LPM_NUMWORDS           ; 256              ; Untyped            ;
+; LPM_INDATA             ; REGISTERED       ; Untyped            ;
+; LPM_RDADDRESS_CONTROL  ; REGISTERED       ; Untyped            ;
+; LPM_WRADDRESS_CONTROL  ; REGISTERED       ; Untyped            ;
+; LPM_OUTDATA            ; UNREGISTERED     ; Untyped            ;
+; LPM_FILE               ; donneeMemory.mif ; Untyped            ;
+; USE_EAB                ; ON               ; Untyped            ;
+; DEVICE_FAMILY          ; Cyclone IV E     ; Untyped            ;
+; AUTO_CARRY_CHAINS      ; ON               ; AUTO_CARRY         ;
+; IGNORE_CARRY_BUFFERS   ; OFF              ; IGNORE_CARRY       ;
+; AUTO_CASCADE_CHAINS    ; ON               ; AUTO_CASCADE       ;
+; IGNORE_CASCADE_BUFFERS ; OFF              ; IGNORE_CASCADE     ;
++------------------------+------------------+--------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mux2:inst12 ;
++----------------+-------+---------------------------------+
+; Parameter Name ; Value ; Type                            ;
++----------------+-------+---------------------------------+
+; buslength      ; 5     ; Signed Integer                  ;
++----------------+-------+---------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------+
+; Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:ADN" ;
++------+-------+----------+-------------------------------------+
+; Port ; Type  ; Severity ; Details                             ;
++------+-------+----------+-------------------------------------+
+; i_bi ; Input ; Info     ; Stuck at GND                        ;
++------+-------+----------+-------------------------------------+
+
+
++----------------------------------------------------------------------+
+; Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:30:AD" ;
++------+-------+----------+--------------------------------------------+
+; Port ; Type  ; Severity ; Details                                    ;
++------+-------+----------+--------------------------------------------+
+; i_bi ; Input ; Info     ; Stuck at GND                               ;
++------+-------+----------+--------------------------------------------+
+
+
++----------------------------------------------------------------------+
+; Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:29:AD" ;
++------+-------+----------+--------------------------------------------+
+; Port ; Type  ; Severity ; Details                                    ;
++------+-------+----------+--------------------------------------------+
+; i_bi ; Input ; Info     ; Stuck at GND                               ;
++------+-------+----------+--------------------------------------------+
+
+
++----------------------------------------------------------------------+
+; Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:28:AD" ;
++------+-------+----------+--------------------------------------------+
+; Port ; Type  ; Severity ; Details                                    ;
++------+-------+----------+--------------------------------------------+
+; i_bi ; Input ; Info     ; Stuck at GND                               ;
++------+-------+----------+--------------------------------------------+
+
+
++----------------------------------------------------------------------+
+; Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:27:AD" ;
++------+-------+----------+--------------------------------------------+
+; Port ; Type  ; Severity ; Details                                    ;
++------+-------+----------+--------------------------------------------+
+; i_bi ; Input ; Info     ; Stuck at GND                               ;
++------+-------+----------+--------------------------------------------+
+
+
++----------------------------------------------------------------------+
+; Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:26:AD" ;
++------+-------+----------+--------------------------------------------+
+; Port ; Type  ; Severity ; Details                                    ;
++------+-------+----------+--------------------------------------------+
+; i_bi ; Input ; Info     ; Stuck at GND                               ;
++------+-------+----------+--------------------------------------------+
+
+
++----------------------------------------------------------------------+
+; Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:25:AD" ;
++------+-------+----------+--------------------------------------------+
+; Port ; Type  ; Severity ; Details                                    ;
++------+-------+----------+--------------------------------------------+
+; i_bi ; Input ; Info     ; Stuck at GND                               ;
++------+-------+----------+--------------------------------------------+
+
+
++----------------------------------------------------------------------+
+; Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:24:AD" ;
++------+-------+----------+--------------------------------------------+
+; Port ; Type  ; Severity ; Details                                    ;
++------+-------+----------+--------------------------------------------+
+; i_bi ; Input ; Info     ; Stuck at GND                               ;
++------+-------+----------+--------------------------------------------+
+
+
++----------------------------------------------------------------------+
+; Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:23:AD" ;
++------+-------+----------+--------------------------------------------+
+; Port ; Type  ; Severity ; Details                                    ;
++------+-------+----------+--------------------------------------------+
+; i_bi ; Input ; Info     ; Stuck at GND                               ;
++------+-------+----------+--------------------------------------------+
+
+
++----------------------------------------------------------------------+
+; Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:22:AD" ;
++------+-------+----------+--------------------------------------------+
+; Port ; Type  ; Severity ; Details                                    ;
++------+-------+----------+--------------------------------------------+
+; i_bi ; Input ; Info     ; Stuck at GND                               ;
++------+-------+----------+--------------------------------------------+
+
+
++----------------------------------------------------------------------+
+; Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:21:AD" ;
++------+-------+----------+--------------------------------------------+
+; Port ; Type  ; Severity ; Details                                    ;
++------+-------+----------+--------------------------------------------+
+; i_bi ; Input ; Info     ; Stuck at GND                               ;
++------+-------+----------+--------------------------------------------+
+
+
++----------------------------------------------------------------------+
+; Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:20:AD" ;
++------+-------+----------+--------------------------------------------+
+; Port ; Type  ; Severity ; Details                                    ;
++------+-------+----------+--------------------------------------------+
+; i_bi ; Input ; Info     ; Stuck at GND                               ;
++------+-------+----------+--------------------------------------------+
+
+
++----------------------------------------------------------------------+
+; Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:19:AD" ;
++------+-------+----------+--------------------------------------------+
+; Port ; Type  ; Severity ; Details                                    ;
++------+-------+----------+--------------------------------------------+
+; i_bi ; Input ; Info     ; Stuck at GND                               ;
++------+-------+----------+--------------------------------------------+
+
+
++----------------------------------------------------------------------+
+; Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:18:AD" ;
++------+-------+----------+--------------------------------------------+
+; Port ; Type  ; Severity ; Details                                    ;
++------+-------+----------+--------------------------------------------+
+; i_bi ; Input ; Info     ; Stuck at GND                               ;
++------+-------+----------+--------------------------------------------+
+
+
++----------------------------------------------------------------------+
+; Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:17:AD" ;
++------+-------+----------+--------------------------------------------+
+; Port ; Type  ; Severity ; Details                                    ;
++------+-------+----------+--------------------------------------------+
+; i_bi ; Input ; Info     ; Stuck at GND                               ;
++------+-------+----------+--------------------------------------------+
+
+
++----------------------------------------------------------------------+
+; Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:16:AD" ;
++------+-------+----------+--------------------------------------------+
+; Port ; Type  ; Severity ; Details                                    ;
++------+-------+----------+--------------------------------------------+
+; i_bi ; Input ; Info     ; Stuck at GND                               ;
++------+-------+----------+--------------------------------------------+
+
+
++----------------------------------------------------------------------+
+; Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:15:AD" ;
++------+-------+----------+--------------------------------------------+
+; Port ; Type  ; Severity ; Details                                    ;
++------+-------+----------+--------------------------------------------+
+; i_bi ; Input ; Info     ; Stuck at GND                               ;
++------+-------+----------+--------------------------------------------+
+
+
++----------------------------------------------------------------------+
+; Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:14:AD" ;
++------+-------+----------+--------------------------------------------+
+; Port ; Type  ; Severity ; Details                                    ;
++------+-------+----------+--------------------------------------------+
+; i_bi ; Input ; Info     ; Stuck at GND                               ;
++------+-------+----------+--------------------------------------------+
+
+
++----------------------------------------------------------------------+
+; Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:13:AD" ;
++------+-------+----------+--------------------------------------------+
+; Port ; Type  ; Severity ; Details                                    ;
++------+-------+----------+--------------------------------------------+
+; i_bi ; Input ; Info     ; Stuck at GND                               ;
++------+-------+----------+--------------------------------------------+
+
+
++----------------------------------------------------------------------+
+; Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:12:AD" ;
++------+-------+----------+--------------------------------------------+
+; Port ; Type  ; Severity ; Details                                    ;
++------+-------+----------+--------------------------------------------+
+; i_bi ; Input ; Info     ; Stuck at GND                               ;
++------+-------+----------+--------------------------------------------+
+
+
++----------------------------------------------------------------------+
+; Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:11:AD" ;
++------+-------+----------+--------------------------------------------+
+; Port ; Type  ; Severity ; Details                                    ;
++------+-------+----------+--------------------------------------------+
+; i_bi ; Input ; Info     ; Stuck at GND                               ;
++------+-------+----------+--------------------------------------------+
+
+
++----------------------------------------------------------------------+
+; Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:10:AD" ;
++------+-------+----------+--------------------------------------------+
+; Port ; Type  ; Severity ; Details                                    ;
++------+-------+----------+--------------------------------------------+
+; i_bi ; Input ; Info     ; Stuck at GND                               ;
++------+-------+----------+--------------------------------------------+
+
+
++---------------------------------------------------------------------+
+; Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:9:AD" ;
++------+-------+----------+-------------------------------------------+
+; Port ; Type  ; Severity ; Details                                   ;
++------+-------+----------+-------------------------------------------+
+; i_bi ; Input ; Info     ; Stuck at GND                              ;
++------+-------+----------+-------------------------------------------+
+
+
++---------------------------------------------------------------------+
+; Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:8:AD" ;
++------+-------+----------+-------------------------------------------+
+; Port ; Type  ; Severity ; Details                                   ;
++------+-------+----------+-------------------------------------------+
+; i_bi ; Input ; Info     ; Stuck at GND                              ;
++------+-------+----------+-------------------------------------------+
+
+
++---------------------------------------------------------------------+
+; Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:7:AD" ;
++------+-------+----------+-------------------------------------------+
+; Port ; Type  ; Severity ; Details                                   ;
++------+-------+----------+-------------------------------------------+
+; i_bi ; Input ; Info     ; Stuck at GND                              ;
++------+-------+----------+-------------------------------------------+
+
+
++---------------------------------------------------------------------+
+; Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:6:AD" ;
++------+-------+----------+-------------------------------------------+
+; Port ; Type  ; Severity ; Details                                   ;
++------+-------+----------+-------------------------------------------+
+; i_bi ; Input ; Info     ; Stuck at GND                              ;
++------+-------+----------+-------------------------------------------+
+
+
++---------------------------------------------------------------------+
+; Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:5:AD" ;
++------+-------+----------+-------------------------------------------+
+; Port ; Type  ; Severity ; Details                                   ;
++------+-------+----------+-------------------------------------------+
+; i_bi ; Input ; Info     ; Stuck at GND                              ;
++------+-------+----------+-------------------------------------------+
+
+
++---------------------------------------------------------------------+
+; Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:4:AD" ;
++------+-------+----------+-------------------------------------------+
+; Port ; Type  ; Severity ; Details                                   ;
++------+-------+----------+-------------------------------------------+
+; i_bi ; Input ; Info     ; Stuck at GND                              ;
++------+-------+----------+-------------------------------------------+
+
+
++---------------------------------------------------------------------+
+; Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:3:AD" ;
++------+-------+----------+-------------------------------------------+
+; Port ; Type  ; Severity ; Details                                   ;
++------+-------+----------+-------------------------------------------+
+; i_bi ; Input ; Info     ; Stuck at GND                              ;
++------+-------+----------+-------------------------------------------+
+
+
++---------------------------------------------------------------------+
+; Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:2:AD" ;
++------+-------+----------+-------------------------------------------+
+; Port ; Type  ; Severity ; Details                                   ;
++------+-------+----------+-------------------------------------------+
+; i_bi ; Input ; Info     ; Stuck at VCC                              ;
++------+-------+----------+-------------------------------------------+
+
+
++---------------------------------------------------------------------+
+; Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:1:AD" ;
++------+-------+----------+-------------------------------------------+
+; Port ; Type  ; Severity ; Details                                   ;
++------+-------+----------+-------------------------------------------+
+; i_bi ; Input ; Info     ; Stuck at GND                              ;
++------+-------+----------+-------------------------------------------+
+
+
++---------------------------------------------------------------+
+; Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:AD0" ;
++------+-------+----------+-------------------------------------+
+; Port ; Type  ; Severity ; Details                             ;
++------+-------+----------+-------------------------------------+
+; i_bi ; Input ; Info     ; Stuck at GND                        ;
++------+-------+----------+-------------------------------------+
+
+
++--------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:inst2|complementerNBits:comp" ;
++------+-------+----------+------------------------------------+
+; Port ; Type  ; Severity ; Details                            ;
++------+-------+----------+------------------------------------+
+; en   ; Input ; Info     ; Stuck at VCC                       ;
++------+-------+----------+------------------------------------+
+
+
++--------------------------------------------------+
+; Port Connectivity Checks: "ALU:inst2|mux8:MUX_8" ;
++----------+-------+----------+--------------------+
+; Port     ; Type  ; Severity ; Details            ;
++----------+-------+----------+--------------------+
+; d        ; Input ; Info     ; Stuck at GND       ;
+; e        ; Input ; Info     ; Stuck at GND       ;
+; f        ; Input ; Info     ; Stuck at GND       ;
+; h[31..1] ; Input ; Info     ; Stuck at GND       ;
++----------+-------+----------+--------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:inst2|AdderNBits:ADD"                                                           ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; cout ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "registers:inst32|registre:reg7"                                                            ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port        ; Type   ; Severity ; Details                                                                             ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+; outputs_bar ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "registers:inst32|registre:reg6"                                                            ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port        ; Type   ; Severity ; Details                                                                             ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+; outputs_bar ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "registers:inst32|registre:reg5"                                                            ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port        ; Type   ; Severity ; Details                                                                             ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+; outputs_bar ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "registers:inst32|registre:reg4"                                                            ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port        ; Type   ; Severity ; Details                                                                             ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+; outputs_bar ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "registers:inst32|registre:reg3"                                                            ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port        ; Type   ; Severity ; Details                                                                             ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+; outputs_bar ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "registers:inst32|registre:reg2"                                                            ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port        ; Type   ; Severity ; Details                                                                             ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+; outputs_bar ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "registers:inst32|registre:reg1"                                                            ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port        ; Type   ; Severity ; Details                                                                             ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+; outputs_bar ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "registers:inst32|registre:reg0"                                                            ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port        ; Type   ; Severity ; Details                                                                             ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+; outputs_bar ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
 +-------------------------------+
@@ -224,7 +1401,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:02     ;
 +----------------+--------------+
 
 
@@ -234,9 +1411,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Wed Mar 06 14:15:25 2019
+    Info: Processing started: Wed Mar 13 01:02:23 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Lab2 -c Lab2
 Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 2 design units, including 1 entities, in source file alucontrolblock.vhd
+    Info (12022): Found design unit 1: ALUControlBlock-structural
+    Info (12023): Found entity 1: ALUControlBlock
 Info (12021): Found 2 design units, including 1 entities, in source file shiftleft2.vhd
     Info (12022): Found design unit 1: shiftLeft2-structural
     Info (12023): Found entity 1: shiftLeft2
@@ -284,22 +1464,120 @@ Info (12021): Found 2 design units, including 1 entities, in source file decoder
 Info (12021): Found 2 design units, including 1 entities, in source file controlunit.vhd
     Info (12022): Found design unit 1: controlUnit-structural
     Info (12023): Found entity 1: controlUnit
-Info (12127): Elaborating entity "shiftLeft2" for the top level hierarchy
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "outputs[0]" is stuck at GND
-    Warning (13410): Pin "outputs[1]" is stuck at GND
+Info (12021): Found 2 design units, including 1 entities, in source file signextend.vhd
+    Info (12022): Found design unit 1: signExtend-structural
+    Info (12023): Found entity 1: signExtend
+Info (12021): Found 2 design units, including 1 entities, in source file pcplusfour.vhd
+    Info (12022): Found design unit 1: PCPlusFour-structural
+    Info (12023): Found entity 1: PCPlusFour
+Info (12021): Found 2 design units, including 1 entities, in source file concat.vhd
+    Info (12022): Found design unit 1: Concat-structural
+    Info (12023): Found entity 1: Concat
+Info (12127): Elaborating entity "Lab2" for the top level hierarchy
+Warning (275006): Can't find a definition for parameter LPM_FILE -- assuming donneeMemory.mif was intended to be a quoted string
+Warning (275006): Can't find a definition for parameter LPM_FILE -- assuming instructionMemory.mif was intended to be a quoted string
+Warning (275002): No superset bus at connection
+Info (12128): Elaborating entity "registers" for hierarchy "registers:inst32"
+Info (12128): Elaborating entity "decoder" for hierarchy "registers:inst32|decoder:dec"
+Info (12128): Elaborating entity "registre" for hierarchy "registers:inst32|registre:reg0"
+Info (12128): Elaborating entity "enARdFF_2" for hierarchy "registers:inst32|registre:reg0|enARdFF_2:\GEN:0:FF"
+Info (12128): Elaborating entity "mux8" for hierarchy "registers:inst32|mux8:mux1"
+Info (12128): Elaborating entity "controlUnit" for hierarchy "controlUnit:inst9"
+Info (12128): Elaborating entity "LPM_ROM" for hierarchy "LPM_ROM:inst43234"
+Info (12130): Elaborated megafunction instantiation "LPM_ROM:inst43234"
+Info (12133): Instantiated megafunction "LPM_ROM:inst43234" with the following parameter:
+    Info (12134): Parameter "LPM_FILE" = "instructionMemory.mif"
+    Info (12134): Parameter "LPM_NUMWORDS" = "256"
+    Info (12134): Parameter "LPM_OUTDATA" = "UNREGISTERED"
+    Info (12134): Parameter "LPM_WIDTH" = "32"
+    Info (12134): Parameter "LPM_WIDTHAD" = "8"
+Info (12128): Elaborating entity "altrom" for hierarchy "LPM_ROM:inst43234|altrom:srom"
+Info (12131): Elaborated megafunction instantiation "LPM_ROM:inst43234|altrom:srom", which is child of megafunction instantiation "LPM_ROM:inst43234"
+Info (12128): Elaborating entity "altsyncram" for hierarchy "LPM_ROM:inst43234|altrom:srom|altsyncram:rom_block"
+Info (12131): Elaborated megafunction instantiation "LPM_ROM:inst43234|altrom:srom|altsyncram:rom_block", which is child of megafunction instantiation "LPM_ROM:inst43234"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_og11.tdf
+    Info (12023): Found entity 1: altsyncram_og11
+Info (12128): Elaborating entity "altsyncram_og11" for hierarchy "LPM_ROM:inst43234|altrom:srom|altsyncram:rom_block|altsyncram_og11:auto_generated"
+Info (12128): Elaborating entity "registre" for hierarchy "registre:PC"
+Info (12128): Elaborating entity "mux2" for hierarchy "mux2:inst29"
+Info (12128): Elaborating entity "ALU" for hierarchy "ALU:inst2"
+Info (12128): Elaborating entity "AdderNBits" for hierarchy "ALU:inst2|AdderNBits:ADD"
+Info (12128): Elaborating entity "oneBitAdder" for hierarchy "ALU:inst2|AdderNBits:ADD|oneBitAdder:AD0"
+Info (12128): Elaborating entity "ANDNBits" for hierarchy "ALU:inst2|ANDNBits:AND1"
+Info (12128): Elaborating entity "ORNBits" for hierarchy "ALU:inst2|ORNBits:OR1"
+Info (12128): Elaborating entity "complementerNBits" for hierarchy "ALU:inst2|complementerNBits:comp"
+Info (12128): Elaborating entity "ALUControlBlock" for hierarchy "ALUControlBlock:inst31"
+Info (12128): Elaborating entity "signExtend" for hierarchy "signExtend:inst10"
+Info (12128): Elaborating entity "PCPlusFour" for hierarchy "PCPlusFour:inst24"
+Info (12128): Elaborating entity "AdderNBits" for hierarchy "AdderNBits:inst7"
+Info (12128): Elaborating entity "shiftLeft2" for hierarchy "shiftLeft2:inst3232"
+Info (12128): Elaborating entity "Concat" for hierarchy "Concat:inst28"
+Info (12128): Elaborating entity "LPM_RAM_DP" for hierarchy "LPM_RAM_DP:inst14"
+Info (12130): Elaborated megafunction instantiation "LPM_RAM_DP:inst14"
+Info (12133): Instantiated megafunction "LPM_RAM_DP:inst14" with the following parameter:
+    Info (12134): Parameter "LPM_FILE" = "donneeMemory.mif"
+    Info (12134): Parameter "LPM_INDATA" = "REGISTERED"
+    Info (12134): Parameter "LPM_NUMWORDS" = "256"
+    Info (12134): Parameter "LPM_OUTDATA" = "UNREGISTERED"
+    Info (12134): Parameter "LPM_RDADDRESS_CONTROL" = "REGISTERED"
+    Info (12134): Parameter "LPM_WIDTH" = "32"
+    Info (12134): Parameter "LPM_WIDTHAD" = "8"
+    Info (12134): Parameter "LPM_WRADDRESS_CONTROL" = "REGISTERED"
+Info (12128): Elaborating entity "altdpram" for hierarchy "LPM_RAM_DP:inst14|altdpram:sram"
+Info (12131): Elaborated megafunction instantiation "LPM_RAM_DP:inst14|altdpram:sram", which is child of megafunction instantiation "LPM_RAM_DP:inst14"
+Info (12128): Elaborating entity "altsyncram" for hierarchy "LPM_RAM_DP:inst14|altdpram:sram|altsyncram:ram_block"
+Info (12131): Elaborated megafunction instantiation "LPM_RAM_DP:inst14|altdpram:sram|altsyncram:ram_block", which is child of megafunction instantiation "LPM_RAM_DP:inst14"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_h1t1.tdf
+    Info (12023): Found entity 1: altsyncram_h1t1
+Info (12128): Elaborating entity "altsyncram_h1t1" for hierarchy "LPM_RAM_DP:inst14|altdpram:sram|altsyncram:ram_block|altsyncram_h1t1:auto_generated"
+Info (12128): Elaborating entity "mux2" for hierarchy "mux2:inst12"
+Warning (14284): Synthesized away the following node(s):
+    Warning (14285): Synthesized away the following RAM node(s):
+        Warning (14320): Synthesized away node "lpm_rom:inst43234|altrom:srom|altsyncram:rom_block|altsyncram_og11:auto_generated|q_a[19]"
+        Warning (14320): Synthesized away node "lpm_rom:inst43234|altrom:srom|altsyncram:rom_block|altsyncram_og11:auto_generated|q_a[20]"
+        Warning (14320): Synthesized away node "lpm_rom:inst43234|altrom:srom|altsyncram:rom_block|altsyncram_og11:auto_generated|q_a[24]"
+        Warning (14320): Synthesized away node "lpm_rom:inst43234|altrom:srom|altsyncram:rom_block|altsyncram_og11:auto_generated|q_a[25]"
+Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
+    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[31]" feeding internal logic into a wire
+    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[30]" feeding internal logic into a wire
+    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[29]" feeding internal logic into a wire
+    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[28]" feeding internal logic into a wire
+    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[27]" feeding internal logic into a wire
+    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[26]" feeding internal logic into a wire
+    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[23]" feeding internal logic into a wire
+    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[22]" feeding internal logic into a wire
+    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[21]" feeding internal logic into a wire
+    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[18]" feeding internal logic into a wire
+    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[17]" feeding internal logic into a wire
+    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[16]" feeding internal logic into a wire
+    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[15]" feeding internal logic into a wire
+    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[14]" feeding internal logic into a wire
+    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[13]" feeding internal logic into a wire
+    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[12]" feeding internal logic into a wire
+    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[11]" feeding internal logic into a wire
+    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[10]" feeding internal logic into a wire
+    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[9]" feeding internal logic into a wire
+    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[8]" feeding internal logic into a wire
+    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[7]" feeding internal logic into a wire
+    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[6]" feeding internal logic into a wire
+    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[5]" feeding internal logic into a wire
+    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[4]" feeding internal logic into a wire
+    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[3]" feeding internal logic into a wire
+    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[2]" feeding internal logic into a wire
+    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[1]" feeding internal logic into a wire
+    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[0]" feeding internal logic into a wire
+Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 2 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "inputs[0]"
-    Warning (15610): No output dependent on input pin "inputs[1]"
-Info (21057): Implemented 64 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 32 input pins
-    Info (21059): Implemented 32 output pins
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 7 warnings
-    Info: Peak virtual memory: 4673 megabytes
-    Info: Processing ended: Wed Mar 06 14:15:28 2019
-    Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:03
+Info (21057): Implemented 993 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 2 input pins
+    Info (21059): Implemented 64 output pins
+    Info (21061): Implemented 867 logic cells
+    Info (21064): Implemented 60 RAM segments
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 39 warnings
+    Info: Peak virtual memory: 4697 megabytes
+    Info: Processing ended: Wed Mar 13 01:02:29 2019
+    Info: Elapsed time: 00:00:06
+    Info: Total CPU time (on all processors): 00:00:06
 
 
