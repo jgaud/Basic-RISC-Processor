@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Lab2
-Wed Mar 13 01:02:29 2019
+Thu Mar 14 23:26:55 2019
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -19,77 +19,79 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
  11. Multiplexer Restructuring Statistics (Restructuring Performed)
  12. Source assignments for LPM_ROM:inst43234|altrom:srom|altsyncram:rom_block|altsyncram_og11:auto_generated
  13. Source assignments for LPM_RAM_DP:inst14|altdpram:sram|altsyncram:ram_block|altsyncram_h1t1:auto_generated
- 14. Parameter Settings for User Entity Instance: registers:inst32|registre:reg0
- 15. Parameter Settings for User Entity Instance: registers:inst32|registre:reg1
- 16. Parameter Settings for User Entity Instance: registers:inst32|registre:reg2
- 17. Parameter Settings for User Entity Instance: registers:inst32|registre:reg3
- 18. Parameter Settings for User Entity Instance: registers:inst32|registre:reg4
- 19. Parameter Settings for User Entity Instance: registers:inst32|registre:reg5
- 20. Parameter Settings for User Entity Instance: registers:inst32|registre:reg6
- 21. Parameter Settings for User Entity Instance: registers:inst32|registre:reg7
- 22. Parameter Settings for User Entity Instance: registers:inst32|mux8:mux1
- 23. Parameter Settings for User Entity Instance: registers:inst32|mux8:mux2
- 24. Parameter Settings for User Entity Instance: LPM_ROM:inst43234
- 25. Parameter Settings for User Entity Instance: registre:PC
- 26. Parameter Settings for User Entity Instance: mux2:inst29
- 27. Parameter Settings for User Entity Instance: mux2:inst23
- 28. Parameter Settings for User Entity Instance: ALU:inst2|AdderNBits:ADD
- 29. Parameter Settings for User Entity Instance: ALU:inst2|ANDNBits:AND1
- 30. Parameter Settings for User Entity Instance: ALU:inst2|ORNBits:OR1
- 31. Parameter Settings for User Entity Instance: ALU:inst2|mux8:MUX_8
- 32. Parameter Settings for User Entity Instance: ALU:inst2|mux2:MUX_2
- 33. Parameter Settings for User Entity Instance: ALU:inst2|complementerNBits:comp
- 34. Parameter Settings for User Entity Instance: mux2:inst5
- 35. Parameter Settings for User Entity Instance: AdderNBits:inst7
- 36. Parameter Settings for User Entity Instance: shiftLeft2:inst3232
- 37. Parameter Settings for User Entity Instance: mux2:inst16
- 38. Parameter Settings for User Entity Instance: LPM_RAM_DP:inst14
- 39. Parameter Settings for User Entity Instance: mux2:inst12
- 40. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:ADN"
- 41. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:30:AD"
- 42. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:29:AD"
- 43. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:28:AD"
- 44. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:27:AD"
- 45. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:26:AD"
- 46. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:25:AD"
- 47. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:24:AD"
- 48. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:23:AD"
- 49. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:22:AD"
- 50. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:21:AD"
- 51. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:20:AD"
- 52. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:19:AD"
- 53. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:18:AD"
- 54. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:17:AD"
- 55. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:16:AD"
- 56. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:15:AD"
- 57. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:14:AD"
- 58. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:13:AD"
- 59. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:12:AD"
- 60. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:11:AD"
- 61. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:10:AD"
- 62. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:9:AD"
- 63. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:8:AD"
- 64. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:7:AD"
- 65. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:6:AD"
- 66. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:5:AD"
- 67. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:4:AD"
- 68. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:3:AD"
- 69. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:2:AD"
- 70. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:1:AD"
- 71. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:AD0"
- 72. Port Connectivity Checks: "ALU:inst2|complementerNBits:comp"
- 73. Port Connectivity Checks: "ALU:inst2|mux8:MUX_8"
- 74. Port Connectivity Checks: "ALU:inst2|AdderNBits:ADD"
- 75. Port Connectivity Checks: "registers:inst32|registre:reg7"
- 76. Port Connectivity Checks: "registers:inst32|registre:reg6"
- 77. Port Connectivity Checks: "registers:inst32|registre:reg5"
- 78. Port Connectivity Checks: "registers:inst32|registre:reg4"
- 79. Port Connectivity Checks: "registers:inst32|registre:reg3"
- 80. Port Connectivity Checks: "registers:inst32|registre:reg2"
- 81. Port Connectivity Checks: "registers:inst32|registre:reg1"
- 82. Port Connectivity Checks: "registers:inst32|registre:reg0"
- 83. Elapsed Time Per Partition
- 84. Analysis & Synthesis Messages
+ 14. Parameter Settings for User Entity Instance: LPM_ROM:inst43234
+ 15. Parameter Settings for User Entity Instance: registre:PC
+ 16. Parameter Settings for User Entity Instance: mux2:inst29
+ 17. Parameter Settings for User Entity Instance: mux2:inst23
+ 18. Parameter Settings for User Entity Instance: ALU:inst2|AdderNBits:ADD
+ 19. Parameter Settings for User Entity Instance: ALU:inst2|ANDNBits:AND1
+ 20. Parameter Settings for User Entity Instance: ALU:inst2|ORNBits:OR1
+ 21. Parameter Settings for User Entity Instance: ALU:inst2|mux8:MUX_8
+ 22. Parameter Settings for User Entity Instance: ALU:inst2|mux2:MUX_2
+ 23. Parameter Settings for User Entity Instance: ALU:inst2|complementerNBits:comp
+ 24. Parameter Settings for User Entity Instance: registers:inst32|registre:reg0
+ 25. Parameter Settings for User Entity Instance: registers:inst32|registre:reg1
+ 26. Parameter Settings for User Entity Instance: registers:inst32|registre:reg2
+ 27. Parameter Settings for User Entity Instance: registers:inst32|registre:reg3
+ 28. Parameter Settings for User Entity Instance: registers:inst32|registre:reg4
+ 29. Parameter Settings for User Entity Instance: registers:inst32|registre:reg5
+ 30. Parameter Settings for User Entity Instance: registers:inst32|registre:reg6
+ 31. Parameter Settings for User Entity Instance: registers:inst32|registre:reg7
+ 32. Parameter Settings for User Entity Instance: registers:inst32|mux8:mux1
+ 33. Parameter Settings for User Entity Instance: registers:inst32|mux8:mux2
+ 34. Parameter Settings for User Entity Instance: mux2:inst16
+ 35. Parameter Settings for User Entity Instance: LPM_RAM_DP:inst14
+ 36. Parameter Settings for User Entity Instance: mux2:inst12
+ 37. Parameter Settings for User Entity Instance: mux2:inst5
+ 38. Parameter Settings for User Entity Instance: signExtend:inst6
+ 39. Parameter Settings for User Entity Instance: AdderNBits:inst7
+ 40. Parameter Settings for User Entity Instance: shiftLeft2:inst3232
+ 41. Parameter Settings for User Entity Instance: mux8:inst3
+ 42. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:ADN"
+ 43. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:30:AD"
+ 44. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:29:AD"
+ 45. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:28:AD"
+ 46. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:27:AD"
+ 47. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:26:AD"
+ 48. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:25:AD"
+ 49. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:24:AD"
+ 50. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:23:AD"
+ 51. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:22:AD"
+ 52. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:21:AD"
+ 53. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:20:AD"
+ 54. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:19:AD"
+ 55. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:18:AD"
+ 56. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:17:AD"
+ 57. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:16:AD"
+ 58. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:15:AD"
+ 59. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:14:AD"
+ 60. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:13:AD"
+ 61. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:12:AD"
+ 62. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:11:AD"
+ 63. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:10:AD"
+ 64. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:9:AD"
+ 65. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:8:AD"
+ 66. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:7:AD"
+ 67. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:6:AD"
+ 68. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:5:AD"
+ 69. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:4:AD"
+ 70. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:3:AD"
+ 71. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:2:AD"
+ 72. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:\GEN:1:AD"
+ 73. Port Connectivity Checks: "PCPlusFour:inst24|oneBitAdder:AD0"
+ 74. Port Connectivity Checks: "registers:inst32|registre:reg7"
+ 75. Port Connectivity Checks: "registers:inst32|registre:reg6"
+ 76. Port Connectivity Checks: "registers:inst32|registre:reg5"
+ 77. Port Connectivity Checks: "registers:inst32|registre:reg4"
+ 78. Port Connectivity Checks: "registers:inst32|registre:reg3"
+ 79. Port Connectivity Checks: "registers:inst32|registre:reg2"
+ 80. Port Connectivity Checks: "registers:inst32|registre:reg1"
+ 81. Port Connectivity Checks: "registers:inst32|registre:reg0"
+ 82. Port Connectivity Checks: "ALU:inst2|complementerNBits:comp"
+ 83. Port Connectivity Checks: "ALU:inst2|mux8:MUX_8"
+ 84. Port Connectivity Checks: "ALU:inst2|AdderNBits:ADD"
+ 85. Elapsed Time Per Partition
+ 86. Analysis & Synthesis Messages
 
 
 
@@ -115,18 +117,18 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Mar 13 01:02:29 2019           ;
+; Analysis & Synthesis Status        ; Successful - Thu Mar 14 23:26:55 2019           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; Lab2                                            ;
 ; Top-level Entity Name              ; Lab2                                            ;
 ; Family                             ; Cyclone IV E                                    ;
-; Total logic elements               ; 834                                             ;
-;     Total combinational functions  ; 610                                             ;
-;     Dedicated logic registers      ; 263                                             ;
-; Total registers                    ; 263                                             ;
-; Total pins                         ; 66                                              ;
+; Total logic elements               ; 1,025                                           ;
+;     Total combinational functions  ; 801                                             ;
+;     Dedicated logic registers      ; 287                                             ;
+; Total registers                    ; 287                                             ;
+; Total pins                         ; 74                                              ;
 ; Total virtual pins                 ; 0                                               ;
-; Total memory bits                  ; 15,360                                          ;
+; Total memory bits                  ; 16,384                                          ;
 ; Embedded Multiplier 9-bit elements ; 0                                               ;
 ; Total PLLs                         ; 0                                               ;
 +------------------------------------+-------------------------------------------------+
@@ -283,29 +285,29 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+--------------+
 ; Resource                                    ; Usage        ;
 +---------------------------------------------+--------------+
-; Estimated Total logic elements              ; 834          ;
+; Estimated Total logic elements              ; 1,025        ;
 ;                                             ;              ;
-; Total combinational functions               ; 610          ;
+; Total combinational functions               ; 801          ;
 ; Logic element usage by number of LUT inputs ;              ;
-;     -- 4 input functions                    ; 485          ;
-;     -- 3 input functions                    ; 122          ;
-;     -- <=2 input functions                  ; 3            ;
+;     -- 4 input functions                    ; 576          ;
+;     -- 3 input functions                    ; 185          ;
+;     -- <=2 input functions                  ; 40           ;
 ;                                             ;              ;
 ; Logic elements by mode                      ;              ;
-;     -- normal mode                          ; 610          ;
+;     -- normal mode                          ; 801          ;
 ;     -- arithmetic mode                      ; 0            ;
 ;                                             ;              ;
-; Total registers                             ; 263          ;
-;     -- Dedicated logic registers            ; 263          ;
+; Total registers                             ; 287          ;
+;     -- Dedicated logic registers            ; 287          ;
 ;     -- I/O registers                        ; 0            ;
 ;                                             ;              ;
-; I/O pins                                    ; 66           ;
-; Total memory bits                           ; 15360        ;
+; I/O pins                                    ; 74           ;
+; Total memory bits                           ; 16384        ;
 ; Embedded Multiplier 9-bit elements          ; 0            ;
 ; Maximum fan-out node                        ; CLK_IN~input ;
-; Maximum fan-out                             ; 262          ;
-; Total fan-out                               ; 3872         ;
-; Average fan-out                             ; 3.64         ;
+; Maximum fan-out                             ; 286          ;
+; Total fan-out                               ; 4917         ;
+; Average fan-out                             ; 3.78         ;
 +---------------------------------------------+--------------+
 
 
@@ -314,11 +316,10 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                   ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                       ; Library Name ;
 +----------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------+--------------+
-; |Lab2                                        ; 610 (13)          ; 263 (0)      ; 15360       ; 0            ; 0       ; 0         ; 66   ; 0            ; |Lab2                                                                                     ; work         ;
-;    |ALU:inst2|                               ; 112 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2                                                                           ; work         ;
-;       |ANDNBits:AND1|                        ; 23 (23)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|ANDNBits:AND1                                                             ; work         ;
-;       |AdderNBits:ADD|                       ; 63 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD                                                            ; work         ;
-;          |oneBitAdder:AD0|                   ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:AD0                                            ; work         ;
+; |Lab2                                        ; 801 (2)           ; 287 (0)      ; 16384       ; 0            ; 0       ; 0         ; 74   ; 0            ; |Lab2                                                                                     ; work         ;
+;    |ALU:inst2|                               ; 171 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2                                                                           ; work         ;
+;       |AdderNBits:ADD|                       ; 73 (11)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD                                                            ; work         ;
+;          |oneBitAdder:AD0|                   ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:AD0                                            ; work         ;
 ;          |oneBitAdder:ADN|                   ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:ADN                                            ; work         ;
 ;          |oneBitAdder:\GEN:10:AD|            ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:10:AD                                     ; work         ;
 ;          |oneBitAdder:\GEN:11:AD|            ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:11:AD                                     ; work         ;
@@ -350,33 +351,81 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;          |oneBitAdder:\GEN:7:AD|             ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:7:AD                                      ; work         ;
 ;          |oneBitAdder:\GEN:8:AD|             ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:8:AD                                      ; work         ;
 ;          |oneBitAdder:\GEN:9:AD|             ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|AdderNBits:ADD|oneBitAdder:\GEN:9:AD                                      ; work         ;
-;       |mux8:MUX_8|                           ; 26 (26)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|mux8:MUX_8                                                                ; work         ;
+;       |mux8:MUX_8|                           ; 98 (98)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALU:inst2|mux8:MUX_8                                                                ; work         ;
 ;    |ALUControlBlock:inst31|                  ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|ALUControlBlock:inst31                                                              ; work         ;
-;    |AdderNBits:inst7|                        ; 10 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7                                                                    ; work         ;
+;    |AdderNBits:inst7|                        ; 48 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7                                                                    ; work         ;
+;       |oneBitAdder:ADN|                      ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:ADN                                                    ; work         ;
+;       |oneBitAdder:\GEN:10:AD|               ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:10:AD                                             ; work         ;
+;       |oneBitAdder:\GEN:11:AD|               ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:11:AD                                             ; work         ;
+;       |oneBitAdder:\GEN:12:AD|               ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:12:AD                                             ; work         ;
+;       |oneBitAdder:\GEN:13:AD|               ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:13:AD                                             ; work         ;
+;       |oneBitAdder:\GEN:14:AD|               ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:14:AD                                             ; work         ;
+;       |oneBitAdder:\GEN:15:AD|               ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:15:AD                                             ; work         ;
+;       |oneBitAdder:\GEN:16:AD|               ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:16:AD                                             ; work         ;
+;       |oneBitAdder:\GEN:17:AD|               ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:17:AD                                             ; work         ;
+;       |oneBitAdder:\GEN:18:AD|               ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:18:AD                                             ; work         ;
+;       |oneBitAdder:\GEN:19:AD|               ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:19:AD                                             ; work         ;
+;       |oneBitAdder:\GEN:20:AD|               ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:20:AD                                             ; work         ;
+;       |oneBitAdder:\GEN:21:AD|               ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:21:AD                                             ; work         ;
+;       |oneBitAdder:\GEN:22:AD|               ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:22:AD                                             ; work         ;
+;       |oneBitAdder:\GEN:23:AD|               ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:23:AD                                             ; work         ;
+;       |oneBitAdder:\GEN:24:AD|               ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:24:AD                                             ; work         ;
+;       |oneBitAdder:\GEN:25:AD|               ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:25:AD                                             ; work         ;
+;       |oneBitAdder:\GEN:26:AD|               ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:26:AD                                             ; work         ;
+;       |oneBitAdder:\GEN:27:AD|               ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:27:AD                                             ; work         ;
+;       |oneBitAdder:\GEN:28:AD|               ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:28:AD                                             ; work         ;
+;       |oneBitAdder:\GEN:30:AD|               ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:30:AD                                             ; work         ;
 ;       |oneBitAdder:\GEN:3:AD|                ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:3:AD                                              ; work         ;
 ;       |oneBitAdder:\GEN:4:AD|                ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:4:AD                                              ; work         ;
 ;       |oneBitAdder:\GEN:5:AD|                ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:5:AD                                              ; work         ;
 ;       |oneBitAdder:\GEN:6:AD|                ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:6:AD                                              ; work         ;
-;       |oneBitAdder:\GEN:7:AD|                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:7:AD                                              ; work         ;
-;    |PCPlusFour:inst24|                       ; 7 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24                                                                   ; work         ;
+;       |oneBitAdder:\GEN:7:AD|                ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:7:AD                                              ; work         ;
+;       |oneBitAdder:\GEN:8:AD|                ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:8:AD                                              ; work         ;
+;       |oneBitAdder:\GEN:9:AD|                ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|AdderNBits:inst7|oneBitAdder:\GEN:9:AD                                              ; work         ;
+;    |PCPlusFour:inst24|                       ; 46 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24                                                                   ; work         ;
+;       |oneBitAdder:ADN|                      ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:ADN                                                   ; work         ;
+;       |oneBitAdder:\GEN:10:AD|               ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:10:AD                                            ; work         ;
+;       |oneBitAdder:\GEN:11:AD|               ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:11:AD                                            ; work         ;
+;       |oneBitAdder:\GEN:12:AD|               ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:12:AD                                            ; work         ;
+;       |oneBitAdder:\GEN:13:AD|               ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:13:AD                                            ; work         ;
+;       |oneBitAdder:\GEN:14:AD|               ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:14:AD                                            ; work         ;
+;       |oneBitAdder:\GEN:15:AD|               ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:15:AD                                            ; work         ;
+;       |oneBitAdder:\GEN:16:AD|               ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:16:AD                                            ; work         ;
+;       |oneBitAdder:\GEN:17:AD|               ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:17:AD                                            ; work         ;
+;       |oneBitAdder:\GEN:18:AD|               ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:18:AD                                            ; work         ;
+;       |oneBitAdder:\GEN:19:AD|               ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:19:AD                                            ; work         ;
+;       |oneBitAdder:\GEN:20:AD|               ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:20:AD                                            ; work         ;
+;       |oneBitAdder:\GEN:21:AD|               ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:21:AD                                            ; work         ;
+;       |oneBitAdder:\GEN:22:AD|               ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:22:AD                                            ; work         ;
+;       |oneBitAdder:\GEN:23:AD|               ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:23:AD                                            ; work         ;
+;       |oneBitAdder:\GEN:24:AD|               ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:24:AD                                            ; work         ;
+;       |oneBitAdder:\GEN:25:AD|               ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:25:AD                                            ; work         ;
+;       |oneBitAdder:\GEN:26:AD|               ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:26:AD                                            ; work         ;
+;       |oneBitAdder:\GEN:27:AD|               ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:27:AD                                            ; work         ;
+;       |oneBitAdder:\GEN:28:AD|               ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:28:AD                                            ; work         ;
+;       |oneBitAdder:\GEN:29:AD|               ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:29:AD                                            ; work         ;
+;       |oneBitAdder:\GEN:30:AD|               ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:30:AD                                            ; work         ;
 ;       |oneBitAdder:\GEN:3:AD|                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:3:AD                                             ; work         ;
 ;       |oneBitAdder:\GEN:4:AD|                ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:4:AD                                             ; work         ;
 ;       |oneBitAdder:\GEN:5:AD|                ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:5:AD                                             ; work         ;
-;       |oneBitAdder:\GEN:6:AD|                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:6:AD                                             ; work         ;
-;       |oneBitAdder:\GEN:7:AD|                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:7:AD                                             ; work         ;
-;    |controlUnit:inst9|                       ; 6 (6)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|controlUnit:inst9                                                                   ; work         ;
+;       |oneBitAdder:\GEN:6:AD|                ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:6:AD                                             ; work         ;
+;       |oneBitAdder:\GEN:7:AD|                ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:7:AD                                             ; work         ;
+;       |oneBitAdder:\GEN:8:AD|                ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:8:AD                                             ; work         ;
+;       |oneBitAdder:\GEN:9:AD|                ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|PCPlusFour:inst24|oneBitAdder:\GEN:9:AD                                             ; work         ;
+;    |controlUnit:inst9|                       ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|controlUnit:inst9                                                                   ; work         ;
 ;    |lpm_ram_dp:inst14|                       ; 1 (0)             ; 1 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|lpm_ram_dp:inst14                                                                   ; work         ;
 ;       |altdpram:sram|                        ; 1 (0)             ; 1 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|lpm_ram_dp:inst14|altdpram:sram                                                     ; work         ;
 ;          |altsyncram:ram_block|              ; 1 (0)             ; 1 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|lpm_ram_dp:inst14|altdpram:sram|altsyncram:ram_block                                ; work         ;
 ;             |altsyncram_h1t1:auto_generated| ; 1 (1)             ; 1 (1)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|lpm_ram_dp:inst14|altdpram:sram|altsyncram:ram_block|altsyncram_h1t1:auto_generated ; work         ;
-;    |lpm_rom:inst43234|                       ; 0 (0)             ; 0 (0)        ; 7168        ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|lpm_rom:inst43234                                                                   ; work         ;
-;       |altrom:srom|                          ; 0 (0)             ; 0 (0)        ; 7168        ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|lpm_rom:inst43234|altrom:srom                                                       ; work         ;
-;          |altsyncram:rom_block|              ; 0 (0)             ; 0 (0)        ; 7168        ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|lpm_rom:inst43234|altrom:srom|altsyncram:rom_block                                  ; work         ;
-;             |altsyncram_og11:auto_generated| ; 0 (0)             ; 0 (0)        ; 7168        ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|lpm_rom:inst43234|altrom:srom|altsyncram:rom_block|altsyncram_og11:auto_generated   ; work         ;
+;    |lpm_rom:inst43234|                       ; 0 (0)             ; 0 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|lpm_rom:inst43234                                                                   ; work         ;
+;       |altrom:srom|                          ; 0 (0)             ; 0 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|lpm_rom:inst43234|altrom:srom                                                       ; work         ;
+;          |altsyncram:rom_block|              ; 0 (0)             ; 0 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|lpm_rom:inst43234|altrom:srom|altsyncram:rom_block                                  ; work         ;
+;             |altsyncram_og11:auto_generated| ; 0 (0)             ; 0 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|lpm_rom:inst43234|altrom:srom|altsyncram:rom_block|altsyncram_og11:auto_generated   ; work         ;
 ;    |mux2:inst12|                             ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|mux2:inst12                                                                         ; work         ;
-;    |mux2:inst16|                             ; 85 (85)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|mux2:inst16                                                                         ; work         ;
-;    |mux2:inst29|                             ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|mux2:inst29                                                                         ; work         ;
-;    |mux2:inst5|                              ; 34 (34)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|mux2:inst5                                                                          ; work         ;
+;    |mux2:inst16|                             ; 32 (32)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|mux2:inst16                                                                         ; work         ;
+;    |mux2:inst29|                             ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|mux2:inst29                                                                         ; work         ;
+;    |mux2:inst5|                              ; 33 (33)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|mux2:inst5                                                                          ; work         ;
+;    |mux8:inst3|                              ; 94 (94)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|mux8:inst3                                                                          ; work         ;
 ;    |registers:inst32|                        ; 330 (10)          ; 256 (0)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32                                                                    ; work         ;
 ;       |mux8:mux1|                            ; 160 (160)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|mux8:mux1                                                          ; work         ;
 ;       |mux8:mux2|                            ; 160 (160)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|mux8:mux2                                                          ; work         ;
@@ -644,13 +693,37 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;          |enARdFF_2:\GEN:7:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:7:FF                                  ; work         ;
 ;          |enARdFF_2:\GEN:8:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:8:FF                                  ; work         ;
 ;          |enARdFF_2:\GEN:9:FF|               ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registers:inst32|registre:reg7|enARdFF_2:\GEN:9:FF                                  ; work         ;
-;    |registre:PC|                             ; 5 (0)             ; 6 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC                                                                         ; work         ;
+;    |registre:PC|                             ; 25 (0)            ; 30 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC                                                                         ; work         ;
+;       |enARdFF_2:\GEN:10:FF|                 ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:10:FF                                                    ; work         ;
+;       |enARdFF_2:\GEN:11:FF|                 ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:11:FF                                                    ; work         ;
+;       |enARdFF_2:\GEN:12:FF|                 ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:12:FF                                                    ; work         ;
+;       |enARdFF_2:\GEN:13:FF|                 ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:13:FF                                                    ; work         ;
+;       |enARdFF_2:\GEN:14:FF|                 ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:14:FF                                                    ; work         ;
+;       |enARdFF_2:\GEN:15:FF|                 ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:15:FF                                                    ; work         ;
+;       |enARdFF_2:\GEN:16:FF|                 ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:16:FF                                                    ; work         ;
+;       |enARdFF_2:\GEN:17:FF|                 ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:17:FF                                                    ; work         ;
+;       |enARdFF_2:\GEN:18:FF|                 ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:18:FF                                                    ; work         ;
+;       |enARdFF_2:\GEN:19:FF|                 ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:19:FF                                                    ; work         ;
+;       |enARdFF_2:\GEN:20:FF|                 ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:20:FF                                                    ; work         ;
+;       |enARdFF_2:\GEN:21:FF|                 ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:21:FF                                                    ; work         ;
+;       |enARdFF_2:\GEN:22:FF|                 ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:22:FF                                                    ; work         ;
+;       |enARdFF_2:\GEN:23:FF|                 ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:23:FF                                                    ; work         ;
+;       |enARdFF_2:\GEN:24:FF|                 ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:24:FF                                                    ; work         ;
+;       |enARdFF_2:\GEN:25:FF|                 ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:25:FF                                                    ; work         ;
+;       |enARdFF_2:\GEN:26:FF|                 ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:26:FF                                                    ; work         ;
+;       |enARdFF_2:\GEN:27:FF|                 ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:27:FF                                                    ; work         ;
+;       |enARdFF_2:\GEN:28:FF|                 ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:28:FF                                                    ; work         ;
+;       |enARdFF_2:\GEN:29:FF|                 ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:29:FF                                                    ; work         ;
 ;       |enARdFF_2:\GEN:2:FF|                  ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:2:FF                                                     ; work         ;
+;       |enARdFF_2:\GEN:30:FF|                 ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:30:FF                                                    ; work         ;
+;       |enARdFF_2:\GEN:31:FF|                 ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:31:FF                                                    ; work         ;
 ;       |enARdFF_2:\GEN:3:FF|                  ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:3:FF                                                     ; work         ;
 ;       |enARdFF_2:\GEN:4:FF|                  ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:4:FF                                                     ; work         ;
 ;       |enARdFF_2:\GEN:5:FF|                  ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:5:FF                                                     ; work         ;
 ;       |enARdFF_2:\GEN:6:FF|                  ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:6:FF                                                     ; work         ;
 ;       |enARdFF_2:\GEN:7:FF|                  ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:7:FF                                                     ; work         ;
+;       |enARdFF_2:\GEN:8:FF|                  ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:8:FF                                                     ; work         ;
+;       |enARdFF_2:\GEN:9:FF|                  ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Lab2|registre:PC|enARdFF_2:\GEN:9:FF                                                     ; work         ;
 +----------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -681,27 +754,29 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 263   ;
+; Total registers                              ; 287   ;
 ; Number of registers using Synchronous Clear  ; 0     ;
-; Number of registers using Synchronous Load   ; 5     ;
-; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Synchronous Load   ; 25    ;
+; Number of registers using Asynchronous Clear ; 286   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 256   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                            ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                  ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------+
-; 3:1                ; 6 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; Yes        ; |Lab2|registre:PC|enARdFF_2:\GEN:7:FF|int_q ;
-; 8:1                ; 32 bits   ; 160 LEs       ; 160 LEs              ; 0 LEs                  ; No         ; |Lab2|registers:inst32|mux8:mux1|output[30] ;
-; 8:1                ; 32 bits   ; 160 LEs       ; 160 LEs              ; 0 LEs                  ; No         ; |Lab2|registers:inst32|mux8:mux2|output[15] ;
-; 8:1                ; 7 bits    ; 35 LEs        ; 21 LEs               ; 14 LEs                 ; No         ; |Lab2|ALU:inst2|mux8:MUX_8|output[1]        ;
-; 9:1                ; 23 bits   ; 138 LEs       ; 69 LEs               ; 69 LEs                 ; No         ; |Lab2|mux2:inst16|output[17]                ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                             ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                   ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------+
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |Lab2|registre:PC|enARdFF_2:\GEN:30:FF|int_q ;
+; 3:1                ; 26 bits   ; 52 LEs        ; 52 LEs               ; 0 LEs                  ; Yes        ; |Lab2|registre:PC|enARdFF_2:\GEN:19:FF|int_q ;
+; 8:1                ; 30 bits   ; 150 LEs       ; 90 LEs               ; 60 LEs                 ; No         ; |Lab2|ALU:inst2|mux8:MUX_8|output[8]         ;
+; 8:1                ; 32 bits   ; 160 LEs       ; 160 LEs              ; 0 LEs                  ; No         ; |Lab2|registers:inst32|mux8:mux1|output[30]  ;
+; 8:1                ; 32 bits   ; 160 LEs       ; 160 LEs              ; 0 LEs                  ; No         ; |Lab2|registers:inst32|mux8:mux2|output[31]  ;
+; 8:1                ; 2 bits    ; 10 LEs        ; 6 LEs                ; 4 LEs                  ; No         ; |Lab2|mux8:inst3|output[0]                   ;
+; 8:1                ; 30 bits   ; 150 LEs       ; 90 LEs               ; 60 LEs                 ; No         ; |Lab2|mux8:inst3|output[8]                   ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------+
 
 
 +----------------------------------------------------------------------------------------------------------+
@@ -720,106 +795,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------------------------+--------------------+------+----------------------------------------------+
 ; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                            ;
 +---------------------------------+--------------------+------+----------------------------------------------+
-
-
-+-----------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: registers:inst32|registre:reg0 ;
-+----------------+-------+----------------------------------------------------+
-; Parameter Name ; Value ; Type                                               ;
-+----------------+-------+----------------------------------------------------+
-; n              ; 31    ; Signed Integer                                     ;
-+----------------+-------+----------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-----------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: registers:inst32|registre:reg1 ;
-+----------------+-------+----------------------------------------------------+
-; Parameter Name ; Value ; Type                                               ;
-+----------------+-------+----------------------------------------------------+
-; n              ; 31    ; Signed Integer                                     ;
-+----------------+-------+----------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-----------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: registers:inst32|registre:reg2 ;
-+----------------+-------+----------------------------------------------------+
-; Parameter Name ; Value ; Type                                               ;
-+----------------+-------+----------------------------------------------------+
-; n              ; 31    ; Signed Integer                                     ;
-+----------------+-------+----------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-----------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: registers:inst32|registre:reg3 ;
-+----------------+-------+----------------------------------------------------+
-; Parameter Name ; Value ; Type                                               ;
-+----------------+-------+----------------------------------------------------+
-; n              ; 31    ; Signed Integer                                     ;
-+----------------+-------+----------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-----------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: registers:inst32|registre:reg4 ;
-+----------------+-------+----------------------------------------------------+
-; Parameter Name ; Value ; Type                                               ;
-+----------------+-------+----------------------------------------------------+
-; n              ; 31    ; Signed Integer                                     ;
-+----------------+-------+----------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-----------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: registers:inst32|registre:reg5 ;
-+----------------+-------+----------------------------------------------------+
-; Parameter Name ; Value ; Type                                               ;
-+----------------+-------+----------------------------------------------------+
-; n              ; 31    ; Signed Integer                                     ;
-+----------------+-------+----------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-----------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: registers:inst32|registre:reg6 ;
-+----------------+-------+----------------------------------------------------+
-; Parameter Name ; Value ; Type                                               ;
-+----------------+-------+----------------------------------------------------+
-; n              ; 31    ; Signed Integer                                     ;
-+----------------+-------+----------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-----------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: registers:inst32|registre:reg7 ;
-+----------------+-------+----------------------------------------------------+
-; Parameter Name ; Value ; Type                                               ;
-+----------------+-------+----------------------------------------------------+
-; n              ; 31    ; Signed Integer                                     ;
-+----------------+-------+----------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: registers:inst32|mux8:mux1 ;
-+----------------+-------+------------------------------------------------+
-; Parameter Name ; Value ; Type                                           ;
-+----------------+-------+------------------------------------------------+
-; buslength      ; 32    ; Signed Integer                                 ;
-+----------------+-------+------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: registers:inst32|mux8:mux2 ;
-+----------------+-------+------------------------------------------------+
-; Parameter Name ; Value ; Type                                           ;
-+----------------+-------+------------------------------------------------+
-; buslength      ; 32    ; Signed Integer                                 ;
-+----------------+-------+------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
 +-----------------------------------------------------------------+
@@ -932,33 +907,103 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+---------------------------------------------------------+
-; Parameter Settings for User Entity Instance: mux2:inst5 ;
-+----------------+-------+--------------------------------+
-; Parameter Name ; Value ; Type                           ;
-+----------------+-------+--------------------------------+
-; buslength      ; 32    ; Signed Integer                 ;
-+----------------+-------+--------------------------------+
++-----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: registers:inst32|registre:reg0 ;
++----------------+-------+----------------------------------------------------+
+; Parameter Name ; Value ; Type                                               ;
++----------------+-------+----------------------------------------------------+
+; n              ; 31    ; Signed Integer                                     ;
++----------------+-------+----------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+---------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: AdderNBits:inst7 ;
-+----------------+-------+--------------------------------------+
-; Parameter Name ; Value ; Type                                 ;
-+----------------+-------+--------------------------------------+
-; n              ; 32    ; Signed Integer                       ;
-+----------------+-------+--------------------------------------+
++-----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: registers:inst32|registre:reg1 ;
++----------------+-------+----------------------------------------------------+
+; Parameter Name ; Value ; Type                                               ;
++----------------+-------+----------------------------------------------------+
+; n              ; 31    ; Signed Integer                                     ;
++----------------+-------+----------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: shiftLeft2:inst3232 ;
-+----------------+-------+-----------------------------------------+
-; Parameter Name ; Value ; Type                                    ;
-+----------------+-------+-----------------------------------------+
-; n              ; 31    ; Signed Integer                          ;
-+----------------+-------+-----------------------------------------+
++-----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: registers:inst32|registre:reg2 ;
++----------------+-------+----------------------------------------------------+
+; Parameter Name ; Value ; Type                                               ;
++----------------+-------+----------------------------------------------------+
+; n              ; 31    ; Signed Integer                                     ;
++----------------+-------+----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: registers:inst32|registre:reg3 ;
++----------------+-------+----------------------------------------------------+
+; Parameter Name ; Value ; Type                                               ;
++----------------+-------+----------------------------------------------------+
+; n              ; 31    ; Signed Integer                                     ;
++----------------+-------+----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: registers:inst32|registre:reg4 ;
++----------------+-------+----------------------------------------------------+
+; Parameter Name ; Value ; Type                                               ;
++----------------+-------+----------------------------------------------------+
+; n              ; 31    ; Signed Integer                                     ;
++----------------+-------+----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: registers:inst32|registre:reg5 ;
++----------------+-------+----------------------------------------------------+
+; Parameter Name ; Value ; Type                                               ;
++----------------+-------+----------------------------------------------------+
+; n              ; 31    ; Signed Integer                                     ;
++----------------+-------+----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: registers:inst32|registre:reg6 ;
++----------------+-------+----------------------------------------------------+
+; Parameter Name ; Value ; Type                                               ;
++----------------+-------+----------------------------------------------------+
+; n              ; 31    ; Signed Integer                                     ;
++----------------+-------+----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: registers:inst32|registre:reg7 ;
++----------------+-------+----------------------------------------------------+
+; Parameter Name ; Value ; Type                                               ;
++----------------+-------+----------------------------------------------------+
+; n              ; 31    ; Signed Integer                                     ;
++----------------+-------+----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: registers:inst32|mux8:mux1 ;
++----------------+-------+------------------------------------------------+
+; Parameter Name ; Value ; Type                                           ;
++----------------+-------+------------------------------------------------+
+; buslength      ; 32    ; Signed Integer                                 ;
++----------------+-------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: registers:inst32|mux8:mux2 ;
++----------------+-------+------------------------------------------------+
+; Parameter Name ; Value ; Type                                           ;
++----------------+-------+------------------------------------------------+
+; buslength      ; 32    ; Signed Integer                                 ;
++----------------+-------+------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -1003,6 +1048,56 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------+
 ; buslength      ; 5     ; Signed Integer                  ;
 +----------------+-------+---------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mux2:inst5 ;
++----------------+-------+--------------------------------+
+; Parameter Name ; Value ; Type                           ;
++----------------+-------+--------------------------------+
+; buslength      ; 32    ; Signed Integer                 ;
++----------------+-------+--------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: signExtend:inst6 ;
++----------------+-------+--------------------------------------+
+; Parameter Name ; Value ; Type                                 ;
++----------------+-------+--------------------------------------+
+; n              ; 15    ; Signed Integer                       ;
++----------------+-------+--------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: AdderNBits:inst7 ;
++----------------+-------+--------------------------------------+
+; Parameter Name ; Value ; Type                                 ;
++----------------+-------+--------------------------------------+
+; n              ; 32    ; Signed Integer                       ;
++----------------+-------+--------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: shiftLeft2:inst3232 ;
++----------------+-------+-----------------------------------------+
+; Parameter Name ; Value ; Type                                    ;
++----------------+-------+-----------------------------------------+
+; n              ; 31    ; Signed Integer                          ;
++----------------+-------+-----------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mux8:inst3 ;
++----------------+-------+--------------------------------+
+; Parameter Name ; Value ; Type                           ;
++----------------+-------+--------------------------------+
+; buslength      ; 32    ; Signed Integer                 ;
++----------------+-------+--------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -1294,36 +1389,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------+-------+----------+-------------------------------------+
 
 
-+--------------------------------------------------------------+
-; Port Connectivity Checks: "ALU:inst2|complementerNBits:comp" ;
-+------+-------+----------+------------------------------------+
-; Port ; Type  ; Severity ; Details                            ;
-+------+-------+----------+------------------------------------+
-; en   ; Input ; Info     ; Stuck at VCC                       ;
-+------+-------+----------+------------------------------------+
-
-
-+--------------------------------------------------+
-; Port Connectivity Checks: "ALU:inst2|mux8:MUX_8" ;
-+----------+-------+----------+--------------------+
-; Port     ; Type  ; Severity ; Details            ;
-+----------+-------+----------+--------------------+
-; d        ; Input ; Info     ; Stuck at GND       ;
-; e        ; Input ; Info     ; Stuck at GND       ;
-; f        ; Input ; Info     ; Stuck at GND       ;
-; h[31..1] ; Input ; Info     ; Stuck at GND       ;
-+----------+-------+----------+--------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "ALU:inst2|AdderNBits:ADD"                                                           ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                             ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; cout ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-
-
 +-----------------------------------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "registers:inst32|registre:reg7"                                                            ;
 +-------------+--------+----------+-------------------------------------------------------------------------------------+
@@ -1396,12 +1461,42 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
++--------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:inst2|complementerNBits:comp" ;
++------+-------+----------+------------------------------------+
+; Port ; Type  ; Severity ; Details                            ;
++------+-------+----------+------------------------------------+
+; en   ; Input ; Info     ; Stuck at VCC                       ;
++------+-------+----------+------------------------------------+
+
+
++--------------------------------------------------+
+; Port Connectivity Checks: "ALU:inst2|mux8:MUX_8" ;
++----------+-------+----------+--------------------+
+; Port     ; Type  ; Severity ; Details            ;
++----------+-------+----------+--------------------+
+; d        ; Input ; Info     ; Stuck at GND       ;
+; e        ; Input ; Info     ; Stuck at GND       ;
+; f        ; Input ; Info     ; Stuck at GND       ;
+; h[31..1] ; Input ; Info     ; Stuck at GND       ;
++----------+-------+----------+--------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:inst2|AdderNBits:ADD"                                                           ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; cout ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
 +-------------------------------+
 ; Elapsed Time Per Partition    ;
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:02     ;
+; Top            ; 00:00:03     ;
 +----------------+--------------+
 
 
@@ -1411,7 +1506,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Wed Mar 13 01:02:23 2019
+    Info: Processing started: Thu Mar 14 23:26:48 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Lab2 -c Lab2
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file alucontrolblock.vhd
@@ -1465,7 +1560,7 @@ Info (12021): Found 2 design units, including 1 entities, in source file control
     Info (12022): Found design unit 1: controlUnit-structural
     Info (12023): Found entity 1: controlUnit
 Info (12021): Found 2 design units, including 1 entities, in source file signextend.vhd
-    Info (12022): Found design unit 1: signExtend-structural
+    Info (12022): Found design unit 1: signExtend-rtl
     Info (12023): Found entity 1: signExtend
 Info (12021): Found 2 design units, including 1 entities, in source file pcplusfour.vhd
     Info (12022): Found design unit 1: PCPlusFour-structural
@@ -1477,11 +1572,6 @@ Info (12127): Elaborating entity "Lab2" for the top level hierarchy
 Warning (275006): Can't find a definition for parameter LPM_FILE -- assuming donneeMemory.mif was intended to be a quoted string
 Warning (275006): Can't find a definition for parameter LPM_FILE -- assuming instructionMemory.mif was intended to be a quoted string
 Warning (275002): No superset bus at connection
-Info (12128): Elaborating entity "registers" for hierarchy "registers:inst32"
-Info (12128): Elaborating entity "decoder" for hierarchy "registers:inst32|decoder:dec"
-Info (12128): Elaborating entity "registre" for hierarchy "registers:inst32|registre:reg0"
-Info (12128): Elaborating entity "enARdFF_2" for hierarchy "registers:inst32|registre:reg0|enARdFF_2:\GEN:0:FF"
-Info (12128): Elaborating entity "mux8" for hierarchy "registers:inst32|mux8:mux1"
 Info (12128): Elaborating entity "controlUnit" for hierarchy "controlUnit:inst9"
 Info (12128): Elaborating entity "LPM_ROM" for hierarchy "LPM_ROM:inst43234"
 Info (12130): Elaborated megafunction instantiation "LPM_ROM:inst43234"
@@ -1498,20 +1588,25 @@ Info (12131): Elaborated megafunction instantiation "LPM_ROM:inst43234|altrom:sr
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_og11.tdf
     Info (12023): Found entity 1: altsyncram_og11
 Info (12128): Elaborating entity "altsyncram_og11" for hierarchy "LPM_ROM:inst43234|altrom:srom|altsyncram:rom_block|altsyncram_og11:auto_generated"
+Warning (113028): 27 out of 256 addresses are uninitialized. The Quartus II software will initialize them to "0". There are 6 warnings found, and 6 warnings are reported.
+    Warning (113027): Addresses ranging from 1 to 3 are not initialized
+    Warning (113027): Addresses ranging from 5 to 7 are not initialized
+    Warning (113027): Addresses ranging from 9 to 11 are not initialized
+    Warning (113027): Addresses ranging from 13 to 15 are not initialized
+    Warning (113027): Addresses ranging from 17 to 19 are not initialized
+    Warning (113027): Addresses ranging from 21 to 32 are not initialized
 Info (12128): Elaborating entity "registre" for hierarchy "registre:PC"
+Info (12128): Elaborating entity "enARdFF_2" for hierarchy "registre:PC|enARdFF_2:\GEN:0:FF"
 Info (12128): Elaborating entity "mux2" for hierarchy "mux2:inst29"
 Info (12128): Elaborating entity "ALU" for hierarchy "ALU:inst2"
 Info (12128): Elaborating entity "AdderNBits" for hierarchy "ALU:inst2|AdderNBits:ADD"
 Info (12128): Elaborating entity "oneBitAdder" for hierarchy "ALU:inst2|AdderNBits:ADD|oneBitAdder:AD0"
 Info (12128): Elaborating entity "ANDNBits" for hierarchy "ALU:inst2|ANDNBits:AND1"
 Info (12128): Elaborating entity "ORNBits" for hierarchy "ALU:inst2|ORNBits:OR1"
+Info (12128): Elaborating entity "mux8" for hierarchy "ALU:inst2|mux8:MUX_8"
 Info (12128): Elaborating entity "complementerNBits" for hierarchy "ALU:inst2|complementerNBits:comp"
-Info (12128): Elaborating entity "ALUControlBlock" for hierarchy "ALUControlBlock:inst31"
-Info (12128): Elaborating entity "signExtend" for hierarchy "signExtend:inst10"
-Info (12128): Elaborating entity "PCPlusFour" for hierarchy "PCPlusFour:inst24"
-Info (12128): Elaborating entity "AdderNBits" for hierarchy "AdderNBits:inst7"
-Info (12128): Elaborating entity "shiftLeft2" for hierarchy "shiftLeft2:inst3232"
-Info (12128): Elaborating entity "Concat" for hierarchy "Concat:inst28"
+Info (12128): Elaborating entity "registers" for hierarchy "registers:inst32"
+Info (12128): Elaborating entity "decoder" for hierarchy "registers:inst32|decoder:dec"
 Info (12128): Elaborating entity "LPM_RAM_DP" for hierarchy "LPM_RAM_DP:inst14"
 Info (12130): Elaborated megafunction instantiation "LPM_RAM_DP:inst14"
 Info (12133): Instantiated megafunction "LPM_RAM_DP:inst14" with the following parameter:
@@ -1531,53 +1626,91 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/alts
     Info (12023): Found entity 1: altsyncram_h1t1
 Info (12128): Elaborating entity "altsyncram_h1t1" for hierarchy "LPM_RAM_DP:inst14|altdpram:sram|altsyncram:ram_block|altsyncram_h1t1:auto_generated"
 Info (12128): Elaborating entity "mux2" for hierarchy "mux2:inst12"
-Warning (14284): Synthesized away the following node(s):
-    Warning (14285): Synthesized away the following RAM node(s):
-        Warning (14320): Synthesized away node "lpm_rom:inst43234|altrom:srom|altsyncram:rom_block|altsyncram_og11:auto_generated|q_a[19]"
-        Warning (14320): Synthesized away node "lpm_rom:inst43234|altrom:srom|altsyncram:rom_block|altsyncram_og11:auto_generated|q_a[20]"
-        Warning (14320): Synthesized away node "lpm_rom:inst43234|altrom:srom|altsyncram:rom_block|altsyncram_og11:auto_generated|q_a[24]"
-        Warning (14320): Synthesized away node "lpm_rom:inst43234|altrom:srom|altsyncram:rom_block|altsyncram_og11:auto_generated|q_a[25]"
+Info (12128): Elaborating entity "ALUControlBlock" for hierarchy "ALUControlBlock:inst31"
+Info (12128): Elaborating entity "signExtend" for hierarchy "signExtend:inst6"
+Info (12128): Elaborating entity "PCPlusFour" for hierarchy "PCPlusFour:inst24"
+Info (12128): Elaborating entity "AdderNBits" for hierarchy "AdderNBits:inst7"
+Info (12128): Elaborating entity "shiftLeft2" for hierarchy "shiftLeft2:inst3232"
+Info (12128): Elaborating entity "Concat" for hierarchy "Concat:inst28"
+Info (12128): Elaborating entity "mux8" for hierarchy "mux8:inst3"
+Warning (13044): Always-enabled tri-state buffer(s) removed
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[31]" to the node "InstructionOut[31]" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[30]" to the node "InstructionOut[30]" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[29]" to the node "InstructionOut[29]" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[28]" to the node "InstructionOut[28]" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[27]" to the node "InstructionOut[27]" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[26]" to the node "InstructionOut[26]" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[1]" to the node "InstructionOut[1]" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[17]" to the node "InstructionOut[17]" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[16]" to the node "InstructionOut[16]" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[18]" to the node "InstructionOut[18]" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[22]" to the node "InstructionOut[22]" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[21]" to the node "InstructionOut[21]" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[23]" to the node "InstructionOut[23]" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[0]" to the node "InstructionOut[0]" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[2]" to the node "InstructionOut[2]" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[3]" to the node "InstructionOut[3]" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[4]" to the node "InstructionOut[4]" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[5]" to the node "InstructionOut[5]" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[6]" to the node "InstructionOut[6]" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[7]" to the node "InstructionOut[7]" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[8]" to the node "InstructionOut[8]" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[9]" to the node "InstructionOut[9]" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[10]" to the node "InstructionOut[10]" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[11]" to the node "InstructionOut[11]" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[12]" to the node "InstructionOut[12]" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[13]" to the node "InstructionOut[13]" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[14]" to the node "InstructionOut[14]" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[15]" to the node "InstructionOut[15]" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[25]" to the node "InstructionOut[25]" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[24]" to the node "InstructionOut[24]" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[20]" to the node "InstructionOut[20]" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[19]" to the node "InstructionOut[19]" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[25]" to the node "registre:PC|enARdFF_2:\GEN:27:FF|int_q" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[24]" to the node "registre:PC|enARdFF_2:\GEN:26:FF|int_q" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[20]" to the node "registre:PC|enARdFF_2:\GEN:22:FF|int_q" into a wire
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "lpm_rom:inst43234|otri[19]" to the node "registre:PC|enARdFF_2:\GEN:21:FF|int_q" into a wire
 Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
-    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[31]" feeding internal logic into a wire
-    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[30]" feeding internal logic into a wire
-    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[29]" feeding internal logic into a wire
-    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[28]" feeding internal logic into a wire
-    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[27]" feeding internal logic into a wire
-    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[26]" feeding internal logic into a wire
-    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[23]" feeding internal logic into a wire
-    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[22]" feeding internal logic into a wire
-    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[21]" feeding internal logic into a wire
-    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[18]" feeding internal logic into a wire
-    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[17]" feeding internal logic into a wire
-    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[16]" feeding internal logic into a wire
-    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[15]" feeding internal logic into a wire
-    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[14]" feeding internal logic into a wire
-    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[13]" feeding internal logic into a wire
-    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[12]" feeding internal logic into a wire
-    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[11]" feeding internal logic into a wire
-    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[10]" feeding internal logic into a wire
-    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[9]" feeding internal logic into a wire
-    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[8]" feeding internal logic into a wire
-    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[7]" feeding internal logic into a wire
-    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[6]" feeding internal logic into a wire
-    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[5]" feeding internal logic into a wire
-    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[4]" feeding internal logic into a wire
-    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[3]" feeding internal logic into a wire
-    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[2]" feeding internal logic into a wire
-    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[1]" feeding internal logic into a wire
-    Warning (13049): Converted tri-state buffer "lpm_rom:inst43234|otri[0]" feeding internal logic into a wire
+    Warning (13047): Converted the fan-out from the tri-state buffer "lpm_rom:inst43234|otri[31]" to the node "controlUnit:inst9|Equal0" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "lpm_rom:inst43234|otri[30]" to the node "controlUnit:inst9|Equal0" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "lpm_rom:inst43234|otri[29]" to the node "controlUnit:inst9|Equal0" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "lpm_rom:inst43234|otri[28]" to the node "controlUnit:inst9|Equal0" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "lpm_rom:inst43234|otri[27]" to the node "controlUnit:inst9|Equal0" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "lpm_rom:inst43234|otri[26]" to the node "controlUnit:inst9|Equal0" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "lpm_rom:inst43234|otri[1]" to the node "AdderNBits:inst7|oneBitAdder:\GEN:3:AD|int_CarryOut2" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "lpm_rom:inst43234|otri[17]" to the node "mux2:inst12|output[1]" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "lpm_rom:inst43234|otri[16]" to the node "mux2:inst12|output[0]" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "lpm_rom:inst43234|otri[18]" to the node "mux2:inst12|output[2]" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "lpm_rom:inst43234|otri[22]" to the node "registers:inst32|mux8:mux1|output[1]" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "lpm_rom:inst43234|otri[21]" to the node "registers:inst32|mux8:mux1|output[1]" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "lpm_rom:inst43234|otri[23]" to the node "registers:inst32|mux8:mux1|output[1]" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "lpm_rom:inst43234|otri[0]" to the node "ALUControlBlock:inst31|op0" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "lpm_rom:inst43234|otri[2]" to the node "ALUControlBlock:inst31|ALUOP_OUT[1]" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "lpm_rom:inst43234|otri[3]" to the node "ALUControlBlock:inst31|op0" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "lpm_rom:inst43234|otri[4]" to the node "AdderNBits:inst7|oneBitAdder:\GEN:6:AD|o_Sum" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "lpm_rom:inst43234|otri[5]" to the node "AdderNBits:inst7|oneBitAdder:\GEN:7:AD|o_Sum" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "lpm_rom:inst43234|otri[6]" to the node "AdderNBits:inst7|oneBitAdder:\GEN:8:AD|o_Sum" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "lpm_rom:inst43234|otri[7]" to the node "AdderNBits:inst7|oneBitAdder:\GEN:9:AD|o_Sum" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "lpm_rom:inst43234|otri[8]" to the node "AdderNBits:inst7|oneBitAdder:\GEN:10:AD|o_Sum" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "lpm_rom:inst43234|otri[9]" to the node "AdderNBits:inst7|oneBitAdder:\GEN:11:AD|o_Sum" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "lpm_rom:inst43234|otri[10]" to the node "AdderNBits:inst7|oneBitAdder:\GEN:12:AD|o_Sum" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "lpm_rom:inst43234|otri[11]" to the node "AdderNBits:inst7|oneBitAdder:\GEN:13:AD|o_Sum" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "lpm_rom:inst43234|otri[12]" to the node "AdderNBits:inst7|oneBitAdder:\GEN:14:AD|o_Sum" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "lpm_rom:inst43234|otri[13]" to the node "AdderNBits:inst7|oneBitAdder:\GEN:15:AD|o_Sum" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "lpm_rom:inst43234|otri[14]" to the node "AdderNBits:inst7|oneBitAdder:\GEN:16:AD|o_Sum" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "lpm_rom:inst43234|otri[15]" to the node "AdderNBits:inst7|oneBitAdder:\GEN:17:AD|o_Sum" into an OR gate
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 993 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 2 input pins
-    Info (21059): Implemented 64 output pins
-    Info (21061): Implemented 867 logic cells
-    Info (21064): Implemented 60 RAM segments
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 39 warnings
-    Info: Peak virtual memory: 4697 megabytes
-    Info: Processing ended: Wed Mar 13 01:02:29 2019
-    Info: Elapsed time: 00:00:06
+Info (21057): Implemented 1196 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 6 input pins
+    Info (21059): Implemented 68 output pins
+    Info (21061): Implemented 1058 logic cells
+    Info (21064): Implemented 64 RAM segments
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 77 warnings
+    Info: Peak virtual memory: 4690 megabytes
+    Info: Processing ended: Thu Mar 14 23:26:55 2019
+    Info: Elapsed time: 00:00:07
     Info: Total CPU time (on all processors): 00:00:06
 
 

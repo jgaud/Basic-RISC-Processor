@@ -16,10 +16,10 @@
 # vsim -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.Lab2_vlg_vec_tst 
 # Loading work.Lab2_vlg_vec_tst
 # Loading work.Lab2
+# Loading altera_ver.dffeas
 # Loading cycloneive_ver.cycloneive_ram_block
 # Loading cycloneive_ver.cycloneive_ram_register
 # Loading cycloneive_ver.cycloneive_ram_pulse_generator
-# Loading altera_ver.dffeas
 # Loading cycloneive_ver.cycloneive_lcell_comb
 # Loading cycloneive_ver.cycloneive_io_ibuf
 # Loading cycloneive_ver.cycloneive_clkctrl
@@ -30,5 +30,5 @@
 # Loading work.Lab2_vlg_check_tst
 # Loading altera_ver.PRIM_GDFF_LOW
 # Simulation passed !
-# ** Note: $finish    : Lab2.vt(1291)
+# ** Note: $finish    : Lab2.vt(1403)
 #    Time: 1 us  Iteration: 0  Instance: /Lab2_vlg_vec_tst/tb_out
